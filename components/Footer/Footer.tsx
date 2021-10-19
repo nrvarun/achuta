@@ -5,7 +5,7 @@ const Footer = ({ children }: any) => {
     <footer className="bg-black">
       <div className="container mx-auto border-t border-white">
         <div>{children}</div>
-        <div className="flex content-center pt-6 pb-40">
+        <div className="flex content-center pt-6 pb-48">
           <div className="w-1/3">
             <p className="text-xl text-gray-300 sf-bold">2021 Achuta Anekal</p>
           </div>

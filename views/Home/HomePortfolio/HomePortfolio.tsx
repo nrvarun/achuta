@@ -1,0 +1,56 @@
+import Link from "next/link";
+
+import Portfolio from "@components/Portfolio";
+
+const HomePortfolio = () => {
+  return (
+    <section className="bg-black">
+      <div className="container mx-auto pb-40 px-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-28">
+          <div>
+            <Link href="/" passHref>
+              <a className="block transform transition duration-500 hover:scale-105">
+                <Portfolio
+                  title=""
+                  desc=""
+                  image="/assets/portfolio/1.png"
+                  locked
+                />
+              </a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/" passHref>
+              <a className="block transform transition duration-500 hover:scale-105">
+                <Portfolio title="" desc="" image="/assets/portfolio/2.png" />
+              </a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/" passHref>
+              <a className="block transform transition duration-500 hover:scale-105">
+                <Portfolio title="" desc="" image="/assets/portfolio/3.png" />
+              </a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/" passHref>
+              <a className="block transform transition duration-500 hover:scale-105">
+                <Portfolio title="" desc="" image="/assets/portfolio/4.png" />
+              </a>
+            </Link>
+          </div>
+          <div>
+            <Link href="/" passHref>
+              <a className="block transform transition duration-500 hover:scale-105">
+                <Portfolio title="" desc="" image="/assets/portfolio/5.png" />
+              </a>
+            </Link>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default HomePortfolio;
