@@ -1,6 +1,9 @@
 // tailwind.config.js
 module.exports = {
-  purge: [],
+  purge: {
+    content: ["./views/**/*.tsx", "./pages/**/*.tsx", "./components/**/*.tsx"],
+    safelist: ["sf-bold", "sf-heavy", "sf-medium", "sf-semibold"],
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
