@@ -11,6 +11,12 @@ module.exports = {
         "2.5xl": "1.75rem",
         "3.5xl": "2rem",
       },
+      textColor: {
+        gold: "#B8997B",
+        meddarkblue: "#52679A",
+        darkblue: "#2B2571",
+        lightdarkgrey: "#868686",
+      },
       container: {
         screens: {
           sm: "100%",

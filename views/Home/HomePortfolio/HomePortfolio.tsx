@@ -20,7 +20,7 @@ const HomePortfolio = () => {
             </Link>
           </div>
           <div>
-            <Link href="/" passHref>
+            <Link href="/angelone-viz" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
                 <Portfolio title="" desc="" image="/assets/portfolio/2.png" />
               </a>
