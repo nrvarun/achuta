@@ -6,7 +6,7 @@ import HomePortfolio from "views/Home/HomePortfolio";
 
 const Home: NextPage = () => {
   return (
-    <Layout bodyClasses="bg-black">
+    <Layout bodyClasses="bg-black" title="Achuta - Portfolio">
       <HomeBanner />
       <HomePortfolio />
       <Footer />

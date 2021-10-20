@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "@components/Header";
 
-const Layout = ({ children }: any) => {
+const Layout = ({ children, title }: any) => {
   return (
     <>
       <Head>
@@ -30,6 +30,7 @@ const Layout = ({ children }: any) => {
           as="font"
           crossOrigin=""
         />
+        <title>{title}</title>
       </Head>
       <div>
         <Header />
