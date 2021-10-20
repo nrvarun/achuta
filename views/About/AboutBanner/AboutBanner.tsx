@@ -3,7 +3,7 @@ import Image from "next/image";
 const AboutBanner = () => {
   return (
     <section className="min-h-screen bg-black py-10 pb-16 md:py-20 xl:py-36">
-      <div className="container mx-auto px-5 xl:px-10">
+      <div className="container mx-auto px-5 xl:px-10 xl:mb-20">
         <div className="md:flex gap-8 md:gap-10 xl:gap-12">
           <div className="w-full md:w-2/5">
             <div className="w-full mb-8">
