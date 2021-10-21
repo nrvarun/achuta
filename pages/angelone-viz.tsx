@@ -35,10 +35,10 @@ const AngelOneVisualHierarchy: NextPage = () => {
                     alt="previous case study"
                   />
                   <div className="ml-4 md:ml-6">
-                    <h4 className="text-white text-sm md:text-md xl:text-4xl mb-2">
+                    <h4 className="text-white text-sm sf-bold md:text-md xl:text-3.5xl mb-2">
                       Grab
                     </h4>
-                    <p className="text-white text-md md:text-xl">
+                    <p className="text-white text-md md:text-base sf-bold">
                       Ads and personalization tech
                     </p>
                   </div>
@@ -49,10 +49,10 @@ const AngelOneVisualHierarchy: NextPage = () => {
               <Link href="/">
                 <a className="flex">
                   <div className="mr-4 md:mr-6 ml-auto">
-                    <h4 className="text-white text-sm md:text-md xl:text-4xl mb-2">
+                    <h4 className="text-white text-sm md:text-md xl:text-3.5xl mb-2 sf-bold">
                       AngelOne
                     </h4>
-                    <p className="text-white text-md md:text-xl">
+                    <p className="text-white text-md md:text-base sf-bold">
                       Web portfolio manager
                     </p>
                   </div>

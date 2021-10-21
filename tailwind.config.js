@@ -2,7 +2,17 @@
 module.exports = {
   purge: {
     content: ["./views/**/*.tsx", "./pages/**/*.tsx", "./components/**/*.tsx"],
-    safelist: ["sf-bold", "sf-heavy", "sf-medium", "sf-semibold"],
+    safelist: [
+      "sf-bold",
+      "sf-heavy",
+      "sf-medium",
+      "sf-semibold",
+      "section-padding-x",
+      "text-subtitle",
+    ],
+  },
+  corePlugins: {
+    // container: false,
   },
   darkMode: false, // or 'media' or 'class'
   theme: {

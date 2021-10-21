@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const AboutBanner = () => {
   return (
-    <section className="min-h-screen bg-black py-10 pb-16 md:py-20 xl:py-36">
-      <div className="container mx-auto px-5 xl:px-10 xl:mb-20">
+    <section className="min-h-screen bg-black py-10 pb-12 md:py-16 xl:py-32">
+      <div className="container mx-auto section-padding-x xl:mb-20">
         <div className="md:flex gap-8 md:gap-10 xl:gap-12">
           <div className="w-full md:w-2/5">
             <div className="w-full mb-8">
               <Image
-                width={440}
-                height={440}
+                width={460}
+                height={460}
                 objectFit="cover"
                 src="/assets/about/cover.png"
                 alt="just a simple pic of me sitting :)"
@@ -19,13 +19,19 @@ const AboutBanner = () => {
           </div>
           <div className="w-full md:w-3/5">
             <article className="md:pr-12">
-              <p className="text-white sf-medium text-xl md:text-2xl xl:text-2.5xl mb-8 xl:mb-12 leading-tight">
+              <p
+                className="text-white sf-medium text-md md:text-xl xl:text-2xl mb-8 xl:mb-12"
+                style={{ lineHeight: 1.5 }}
+              >
                 Hey there! I am an engineer by academic training and product
                 designer by passion. What keeps me motivated endlessly is any
                 unique opportunity to design data-informed products that can
                 impact millions of people in this connected and diverse world.
               </p>
-              <p className="text-white sf-medium text-xl md:text-2xl xl:text-2.5xl leading-tight">
+              <p
+                className="text-white sf-medium text-md md:text-xl xl:text-2xl"
+                style={{ lineHeight: 1.5 }}
+              >
                 I am passionate about applying my ingrained creativity and
                 critical thinking to product strategy, experience design, and
                 design eminence. I keep human-centered design at the core of all

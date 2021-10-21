@@ -21,16 +21,18 @@ const Outcomes = ({ title, list, color, backgroundColor }: OutcomesType) => {
           {list.map((item, index) => (
             <li key={index}>
               <div className="flex">
-                <div>
-                  <p
-                    className="py-1 px-2 mt-3 block rounded text-sm md:text-md xl:text-lg sf-medium text-white mr-4"
-                    style={{ backgroundColor: color }}
-                  >
-                    0{index + 1}
-                  </p>
+                <div className="mr-4 mt-3">
+                  <div style={{ width: 32, height: 32 }}>
+                    <p
+                      className="w-full h-full flex text-center block rounded text-sm md:text-md xl:text-lg sf-medium text-white mr-4"
+                      style={{ backgroundColor: color }}
+                    >
+                      <span className="m-auto">0{index + 1}</span>
+                    </p>
+                  </div>
                 </div>
                 <p
-                  className={`text-xl md:text-2xl xl:text-3xl sf-medium text-black xl:leading-relaxed ${
+                  className={`text-xl md:text-2xl xl:text-3.5xl sf-semibold text-black xl:leading-relaxed ${
                     index !== list.length && "pr-4"
                   }`}
                   style={{ color }}

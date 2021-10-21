@@ -1,11 +1,13 @@
 .wrapper {
   width: 100%;
   position: relative;
+  z-index: 2;
 }
 
 .productImage {
   width: 100%;
   height: auto;
+  margin: 0 auto;
   
   @media (min-width: 990px) {
     height: 25rem;
@@ -21,7 +23,7 @@
   height: 2.5rem;
   position: absolute;
   top: 1.5rem;
-  right: 2rem;
+  right: 3.5rem;
   border-radius: 50%;
   box-shadow: 
     0 1px 1px rgb(0 0 0 / 5%), 
