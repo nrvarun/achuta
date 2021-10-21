@@ -51,34 +51,62 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="In order to achieve this we ran through a couple hundred post it notes creating user stories to understand workflows. After synthesising the user stories, we identified four broad sections to define the layout;"
           />
-          <ol className="list-decimal pl-4">
+          <ol className="pl-4">
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="A universal search query to show specified information"
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="1."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="A universal search query to show specified information"
+                />
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="Primary navigation"
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="2."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="Primary navigation"
+                />
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="Main content area (Stock details, portfolio, orders and postions, etc)"
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="3."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="Main content area (Stock details, portfolio, orders and postions, etc)"
+                />
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="Static watchlist area to track trends at anytime"
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="4."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="Static watchlist area to track trends at anytime"
+                />
+              </div>
             </li>
           </ol>
         </div>
@@ -92,27 +120,48 @@ const Content = () => {
             content="Before I started visual exploration, I laid down some conditions that defined an effective user flow:"
           />
 
-          <ol className="list-decimal mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="The flow must bring an intense and focused concentration to the task."
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="1."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="The flow must bring an intense and focused concentration to the task."
+                />
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="It should so absorbing that the user is never distracted with the next step or the previous step."
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="2."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="It should so absorbing that the user is never distracted with the next step or the previous step."
+                />
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="It must intuitive that the user always know what to do next."
-              />
+              <div className="flex">
+                <Text
+                  classes="xl:text-2xl mr-2"
+                  style={{ lineHeight: 1.5 }}
+                  content="3."
+                />
+                <Text
+                  classes="xl:text-2xl"
+                  style={{ lineHeight: 1.5 }}
+                  content="It must intuitive that the user always know what to do next."
+                />
+              </div>
             </li>
           </ol>
           <Text
@@ -145,27 +194,66 @@ const Content = () => {
             content="The watchlist contained vital pieces of information for users in their investing or trading decision making process. So we talked to users to really understand what they are, how it’s useful and why they find it useful. The following insights helped inform my design rationale::"
           />
 
-          <ol className="list-disc mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="Users create baskets of securities which are carefully picked based on unique themes, strategies and objectives. To get the best outcomes, advanced traders monitor these baskets regularly and use those insights for their buy and sell decisions. Allowing users to always have a view of these regularily tracked securities in a watchlist seemed like a must have. "
-              />
+              <div className="flex">
+                <img
+                  src="/icons/arrow-right.svg"
+                  alt=""
+                  className="w-4 h-4 md:w-8 md:h-8 mr-4"
+                />
+
+                <p
+                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  style={{ lineHeight: 1.5 }}
+                >
+                  Users{" "}
+                  <span className="sf-bold">create baskets of securities</span>{" "}
+                  which are carefully picked based on unique themes, strategies
+                  and objectives. To get the best outcomes, advanced traders
+                  monitor these baskets regularly and use those insights for
+                  their buy and sell decisions. Allowing users to always have a
+                  view of these regularily tracked securities in a watchlist
+                  seemed like a must have.
+                </p>
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="Seeing what is relevant is key for traders while building a watchlist, removing as much noise as possible."
-              />
+              <div className="flex">
+                <img
+                  src="/icons/arrow-right.svg"
+                  alt=""
+                  className="w-4 h-4 md:w-8 md:h-8 mr-4"
+                />
+                <p
+                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  style={{ lineHeight: 1.5 }}
+                >
+                  <span className="sf-bold">Seeing what is relevant</span> is
+                  key for traders while building a watchlist, removing as much
+                  noise as possible.
+                </p>
+              </div>
             </li>
             <li className="mb-2">
-              <Text
-                classes="xl:text-2xl"
-                style={{ lineHeight: 1.5 }}
-                content="Making it easier to identify opputunities. With a watchlist, traders are able to easily identify trading opportunities, especially for short term traders."
-              />
+              <div className="flex">
+                <img
+                  src="/icons/arrow-right.svg"
+                  alt=""
+                  className="w-4 h-4 md:w-8 md:h-8 mr-4"
+                />
+
+                <p
+                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  style={{ lineHeight: 1.5 }}
+                >
+                  <span className="sf-bold">
+                    Making it easier to identify opputunities.
+                  </span>
+                  With a watchlist, traders are able to easily identify trading
+                  opportunities, especially for short term traders.
+                </p>
+              </div>
             </li>
           </ol>
           <Text
