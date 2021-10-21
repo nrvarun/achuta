@@ -200,7 +200,7 @@ const Content = () => {
                 <img
                   src="/icons/arrow-right.svg"
                   alt=""
-                  className="w-4 h-4 md:w-8 md:h-8 mr-4"
+                  className="w-4 h-4 md:w-6 md:h-6 mr-4 mt-2"
                 />
 
                 <p
@@ -223,7 +223,7 @@ const Content = () => {
                 <img
                   src="/icons/arrow-right.svg"
                   alt=""
-                  className="w-4 h-4 md:w-8 md:h-8 mr-4"
+                  className="w-4 h-4 md:w-6 md:h-6 mr-4 mt-2"
                 />
                 <p
                   className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
@@ -240,7 +240,7 @@ const Content = () => {
                 <img
                   src="/icons/arrow-right.svg"
                   alt=""
-                  className="w-4 h-4 md:w-8 md:h-8 mr-4"
+                  className="w-4 h-4 md:w-6 md:h-6 mr-4 mt-2"
                 />
 
                 <p
