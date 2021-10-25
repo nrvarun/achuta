@@ -24,19 +24,22 @@ const OverView = () => {
         <div className="w-full md:w-1/3">
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text content="ROLE" classes="text-gray-500 mb-2 sf-bold" />
-            <Text content="UX Designer" />
+            <Text content="UX Designer" classes="xl:text-2xl" />
           </div>
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text
               content="COLLABORATORS"
-              classes="text-gray-500 mb-2 sf-bold"
+              classes="text-gray-500 mb-2 sf-bold "
             />
-            <Text content="Jai Prasanna, Business Analyst" classes="mb-1" />
-            <Text content="Sam Joshua, Designer" />
+            <Text
+              content="Jai Prasanna, Business Analyst"
+              classes="mb-1 xl:text-2xl"
+            />
+            <Text content="Sam Joshua, Designer" classes="xl:text-2xl" />
           </div>
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text content="TIMELINE" classes="text-gray-500 mb-2 sf-bold" />
-            <Text content="Nov 2020 (2 weeks)" />
+            <Text content="Nov 2020 (2 weeks)" classes="xl:text-2xl" />
           </div>
         </div>
       </div>

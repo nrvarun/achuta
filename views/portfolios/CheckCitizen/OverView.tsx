@@ -13,18 +13,17 @@ const OverView = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="AngelOne is going through a digital transformation, wherein they are completely redesigning their stock trading applications with focused objective to appeal to Gen-Z and Millennial traders. I was responsible for working across the AngelOne’s stock trading products from designing and the shipping the stock overview and fundamentals page to the portfolio manager."
-          />
-          <Text
-            style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="In this case study I will showcase how we built the portfolio management experience on the web platform. This is an important module of the trading app with significant user interaction and focus. I worked closely with a business analyst, another designer and subject matter experts to understand trading behavior and data interactions."
+            content="To help curb rising traffic violations in Bengaluru city, the police released an application called Public Eye that empowers citizens to report violations on the road.  In the final semester of my 4 year engineering course, my team of two engineers and I set out to completely redesign this experience by bringing consumer growth tactics like virality and game design.  As the project lead, I was responsible for product ideation, studying user behaviour and crafting a compelling experience. I also assisted my team in writing algorithms for an optimised neural network to perform machine learning for automatic violation detection.."
           />
         </div>
         <div className="w-full md:w-1/3">
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text content="ROLE" classes="text-gray-500 mb-2 sf-bold" />
-            <Text content="UX Designer" classes="xl:text-2xl" />
+            <Text content="UX Designer" classes="xl:text-2xl mb-1" />
+            <Text
+              content="Machine Learning Engineer"
+              classes="xl:text-2xl mb-1"
+            />
           </div>
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text
@@ -32,14 +31,14 @@ const OverView = () => {
               classes="text-gray-500 mb-2 sf-bold"
             />
             <Text
-              content="Jai Prasanna, Business Analyst"
+              content="Karthik Achanta, Engineer"
               classes="mb-1 xl:text-2xl"
             />
-            <Text content="Sam Joshua, Designer" classes="xl:text-2xl" />
+            <Text content="Aditya P, Engineer" classes="mb-1 xl:text-2xl" />
           </div>
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text content="TIMELINE" classes="text-gray-500 mb-2 sf-bold" />
-            <Text content="January 2021 (4 weeks)" classes="xl:text-2xl" />
+            <Text content="Jan 2020 - Apr 2020" classes=" xl:text-2xl" />
           </div>
         </div>
       </div>

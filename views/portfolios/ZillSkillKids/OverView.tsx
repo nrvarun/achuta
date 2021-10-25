@@ -13,12 +13,12 @@ const OverView = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="AngelOne is going through a digital transformation, wherein they are completely redesigning their stock trading applications with focused objective to appeal to Gen-Z and Millennial traders. I was responsible for working across the AngelOne’s stock trading products from designing and the shipping the stock overview and fundamentals page to the portfolio manager."
+            content="ZILLSKILL is a platform that provides a learning community for kids to bring out the best in them and explore their inner passion. They can engage in interactive activities with learning opportunities while interacting with their peers. We were responsible for delivering an enriching and engaging experience that allow kids to do stuff they are deeply passionate about, whethers it’s building a game on Roblox or becoming a YouTuber."
           />
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="In this case study I will showcase how we built the portfolio management experience on the web platform. This is an important module of the trading app with significant user interaction and focus. I worked closely with a business analyst, another designer and subject matter experts to understand trading behavior and data interactions."
+            content="In the case study I will showcase how I built a unique journey to help kids discover their inner curiosities and natural capabilities through design. I collaborated closely with the founding team and a child psychiatrist who helped me empathize and understand kids’ mental models and how their cognitive abilities and evolve over time."
           />
         </div>
         <div className="w-full md:w-1/3">
@@ -32,14 +32,25 @@ const OverView = () => {
               classes="text-gray-500 mb-2 sf-bold"
             />
             <Text
-              content="Jai Prasanna, Business Analyst"
+              content="Bikash Prajapat, Business Analyst"
               classes="mb-1 xl:text-2xl"
             />
-            <Text content="Sam Joshua, Designer" classes="xl:text-2xl" />
+            <Text
+              content="Saiaditya Garyali, Designer"
+              classes="mb-1 xl:text-2xl"
+            />
+            <Text
+              content="ZILLSKILL founding team"
+              classes="mb-1 xl:text-2xl"
+            />
+            <Text
+              content="Dr. Shafali Batra, Child Psychairist"
+              classes="xl:text-2xl"
+            />
           </div>
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text content="TIMELINE" classes="text-gray-500 mb-2 sf-bold" />
-            <Text content="January 2021 (4 weeks)" classes="xl:text-2xl" />
+            <Text content="Feb 2021 (2 weeks)" classes="xl:text-2xl" />
           </div>
         </div>
       </div>
