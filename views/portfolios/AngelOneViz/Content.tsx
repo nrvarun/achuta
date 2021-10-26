@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
         <Image
           src="/assets/casestudy/angel-1/1.png"
           alt=""
@@ -14,7 +14,7 @@ const Content = () => {
           height={536}
           layout="responsive"
         />
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -33,7 +33,7 @@ const Content = () => {
             content="Before we could begin researching ways to attract users to a new and bigger platform which complements the already existing mobile app, a critical problem needed to be addressed. Typically a web platform serves to proficient users who have good a working knowledge of stock trading. But though research we also found users who transistion from a novice skill level to advanced skill level are likely to use the web platforms as an extension to support their portfolios built primarily on a mobile app."
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -110,7 +110,7 @@ const Content = () => {
             </li>
           </ol>
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-gold">
             Crafting the interface
           </h3>
@@ -120,7 +120,7 @@ const Content = () => {
             content="Before I started visual exploration, I laid down some conditions that defined an effective user flow:"
           />
 
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <Text
@@ -184,7 +184,7 @@ const Content = () => {
             content="From the ideas and directions decided from the sketches, I started to flesh them out into higher fidelity wireframes. Considering multiple factors related to business and technical functions, I took the following design decisions:"
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
             Sticky Watchlist
           </h3>
@@ -194,7 +194,7 @@ const Content = () => {
             content="The watchlist contained vital pieces of information for users in their investing or trading decision making process. So we talked to users to really understand what they are, how it’s useful and why they find it useful. The following insights helped inform my design rationale::"
           />
 
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <img
@@ -287,7 +287,7 @@ const Content = () => {
             layout="responsive"
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <div className="mx-2">
             <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
               Core content area and navigator
@@ -300,7 +300,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-16">
+      <div className="container mx-auto px-8 md:px-16">
         <Image
           src="/assets/casestudy/angel-1/5.png"
           alt=""
@@ -311,8 +311,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
             Universal search bar
           </h3>

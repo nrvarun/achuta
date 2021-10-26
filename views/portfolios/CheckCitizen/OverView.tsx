@@ -5,7 +5,7 @@ const OverView = () => {
   return (
     <div className="container mx-auto section-padding-x">
       <div className="md:flex mt-4 md:mt-8 xl:mt-12">
-        <div className="w-full md:w-2/3 pr-32">
+        <div className="w-full md:w-2/3 md:pr-16 xl:pr-32 mb-12 md:mb-0">
           <Text
             content="OVERVIEW"
             classes="text-gray-500 mb-4 md:mb-6 sf-bold"

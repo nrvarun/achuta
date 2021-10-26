@@ -14,15 +14,17 @@ const Footer = ({ children }: any) => {
           <div className="md:w-2/3">
             <ul className="flex justify-between md:justify-around">
               <li>
-                <a className="sf-medium text-md md:text-xl text-white">Email</a>
+                <a className="sf-medium text-xs md:text-md md:text-xl text-white">
+                  Email
+                </a>
               </li>
               <li>
-                <a className="sf-medium text-md md:text-xl text-white">
+                <a className="sf-medium text-xs md:text-md md:text-xl text-white">
                   Twitter
                 </a>
               </li>
               <li>
-                <a className="sf-medium text-md md:text-xl text-white">
+                <a className="sf-medium text-xs md:text-md md:text-xl text-white">
                   LinkedIn
                 </a>
               </li>

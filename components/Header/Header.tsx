@@ -13,7 +13,7 @@ const Header = () => {
           <Link href="/">
             <a className="no-underline">
               <h1 className="sf-heavy capitalize text-xl md:text-2xl xl:text-3.5xl text-white my-auto">
-                achut anekal
+                achuta anekal
               </h1>
             </a>
           </Link>
@@ -25,9 +25,7 @@ const Header = () => {
                 <Link href="/">
                   <a
                     className={`text-sm md:text-xl xl:text-2xl sf-medium capitalize ${
-                      router.pathname === "/portfolio"
-                        ? "text-white"
-                        : "text-gray-400"
+                      router.pathname === "/" ? "text-white" : "text-gray-400"
                     }`}
                   >
                     work

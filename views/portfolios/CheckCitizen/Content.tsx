@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-16 md:px-40 xl:px-56">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56">
         <Image
           src="/assets/casestudy/check/1.png"
           alt=""
@@ -14,7 +14,7 @@ const Content = () => {
           height={746}
           layout="responsive"
         />
-        <div className="mx-12 md:mx-20 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -33,7 +33,7 @@ const Content = () => {
             content="The simple reason was that Public Eye had very poor user experience. Users complained that a lot of violations submitted is being overlooked by the police as it was being processed manually and no prompt action is initiated against violators. Hence there was really no real incentive for users to be good samaritans."
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -52,7 +52,7 @@ const Content = () => {
             content="I decided that the core goal was that there must be something that triggers instrinsic motivation that inherently motivates the users to use the app. The experience of the application should not be gamified by just adding points, levels and badges. When we do things to earn rewards and achieve external goals it largely reduces the effects of intrinsic motivation. The only way to make gamfication work is to design the underlying experience to already be a game."
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Understanding the users
           </h3>
@@ -63,7 +63,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/check/2.png"
           alt=""
@@ -74,8 +74,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
@@ -86,7 +86,7 @@ const Content = () => {
             classes="mb-2 xl:text-2xl"
             content="It turns out there is no one way to design games. So using the findings of the user study as a premise of our understanding of psychology, storytelling and interaction design, we defined 4 factors to work with in our product construct:"
           />
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <Text
@@ -149,7 +149,7 @@ const Content = () => {
             </li>
           </ol>
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             A good goal
           </h3>
@@ -173,7 +173,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/check/3.png"
           alt=""
@@ -184,8 +184,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-2 md:mt-4 xl:mt-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-2 md:mt-4 xl:mt-8">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
@@ -194,8 +194,8 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Safety and privacy
           </h3>
@@ -204,7 +204,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="Another key ask was about privacy and safety of the users using app. There were two usecases we had to design for"
           />
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <Text
@@ -278,7 +278,7 @@ const Content = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/check/5.png"
           alt=""
@@ -289,8 +289,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Challenges motivate users
           </h3>
@@ -311,7 +311,7 @@ const Content = () => {
             />
           </div>
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Strong emotions
           </h3>
@@ -350,8 +350,8 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             A holistic experience
           </h3>
@@ -395,7 +395,12 @@ const Content = () => {
           />
           <div className="text-center">
             <video
-              className="w-full h-auto max-w-sm mx-auto"
+              style={{
+                boxShadow: "0px 2px 8px rgb(90 90 90 / 20%)",
+                borderRadius: 8,
+                maxWidth: 260,
+              }}
+              className="w-full h-auto mx-auto"
               controls
               src="/assets/casestudy/check/video.mp4"
               poster="/assets/casestudy/check/video-poster.png"

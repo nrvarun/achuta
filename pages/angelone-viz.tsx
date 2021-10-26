@@ -26,43 +26,50 @@ const AngelOneVisualHierarchy: NextPage = () => {
         <div className="py-12 md:py-16 xl:py-24">
           <div className="flex">
             <div className="w-1/2">
-              <Link href="/">
-                <a className="flex">
-                  <Image
-                    src="/icons/arrow-white.svg"
-                    width={36}
-                    height={36}
-                    alt="previous case study"
-                  />
-                  <div className="ml-4 md:ml-6">
-                    <h4 className="text-white text-sm sf-bold md:text-md xl:text-3.5xl mb-2">
-                      Grab
-                    </h4>
-                    <p className="text-white text-md md:text-base sf-bold">
-                      Ads and personalization tech
-                    </p>
+              <a className="flex">
+                <div className="flex">
+                  <div className="w-4 h-4 md:w-6 md:h-6 lg:w-9 lg:h-9 flex content-center m-auto">
+                    <Image
+                      src="/icons/arrow-white.svg"
+                      width={36}
+                      height={36}
+                      className="rotate-180"
+                      alt="previous case study"
+                    />
                   </div>
-                </a>
-              </Link>
+                </div>
+                <div className="ml-4 md:ml-6">
+                  <h4 className="text-white text-sm sf-bold md:text-md xl:text-3.5xl mb-2">
+                    Grab
+                  </h4>
+                  <p className="text-white text-xs md:text-base xl:text-md sf-bold">
+                    Ads and personalization tech
+                  </p>
+                </div>
+              </a>
             </div>
             <div className="w-1/2 text-right">
-              <Link href="/">
+              <Link href="/angelone-web-portfolio">
                 <a className="flex">
                   <div className="mr-4 md:mr-6 ml-auto">
                     <h4 className="text-white text-sm md:text-md xl:text-3.5xl mb-2 sf-bold">
                       AngelOne
                     </h4>
-                    <p className="text-white text-md md:text-base sf-bold">
+                    <p className="text-white text-xs md:text-base xl:text-md sf-bold">
                       Web portfolio manager
                     </p>
                   </div>
-                  <Image
-                    src="/icons/arrow-white-right.svg"
-                    width={36}
-                    height={36}
-                    className="rotate-180"
-                    alt="previous case study"
-                  />
+                  <div className="flex">
+                    <div className="w-4 h-4 md:w-6 md:h-6 lg:w-9 lg:h-9 flex content-center m-auto">
+                      <Image
+                        src="/icons/arrow-white-right.svg"
+                        width={36}
+                        height={36}
+                        className="rotate-180"
+                        alt="previous case study"
+                      />
+                    </div>
+                  </div>
                 </a>
               </Link>
             </div>

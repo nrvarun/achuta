@@ -1,10 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import Text from "@components/Text";
 import Image from "next/image";
 
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
+      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
         <Image
           src="/assets/casestudy/angel-2/1.png"
           alt=""
@@ -14,7 +15,7 @@ const Content = () => {
           height={536}
           layout="responsive"
         />
-        <div className="mx-12 md:mx-20 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -33,7 +34,7 @@ const Content = () => {
             content="Some users end up making bad decisions and execute impulsive trades with poor planning or rationale simply because they don’t find precise information at the right time to support their decisions. With the portfolio manager being an essential part in a trading workflow, it was important that our designs would abstract complexity and help them get through the funnel, well informed. Because the web platform caters to a unique user segment of both advanced traders and intermediate traders, the challenge was to be mindful to their different financial maturity levels."
           />
         </div>
-        <div className="mx-12 md:mx-20 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -46,7 +47,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="To understand different types of trading behavious we talked to users and gathered the following insights:"
           />
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <img
@@ -124,8 +125,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
-        <div className="mx-12 md:mx-20">
+      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+        <div className="md:mx-12 lg:mx-24">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
@@ -148,7 +149,7 @@ const Content = () => {
             content="The three main main sections we decided to show upfront is open orders, open positions and holdings. Both order history and closed positions were placed under tab headings ‘open orders’ and ‘positions’ respectively, because we learnt this was not an essential part of a traders workflow to be shown upfront in separate tabs."
           />
         </div>
-        <div className="mx-12 md:mx-20 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Details make the design
           </h3>
@@ -169,7 +170,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="mx-12 md:mx-20">
+        <div className="md:mx-12 lg:mx-24">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/4.png"
@@ -183,8 +184,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
-        <div className="mx-12 md:mx-20">
+      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+        <div className="md:mx-12 lg:mx-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Quick actions on hover
           </h3>
@@ -196,7 +197,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="mx-12 md:mx-20">
+        <div className="md:mx-12 lg:mx-24">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/5.png"
@@ -210,8 +211,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
-        <div className="mx-12 md:mx-20">
+      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+        <div className="md:mx-12 lg:mx-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Thoughtfully designed nudges
           </h3>
@@ -220,7 +221,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="One of the problems I mentioned earlier was users making bad trading decisions because of inadequate or inaccurate data. Here are some measures I took across the Portfolio Manager to help users make more informed decisions. "
           />
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <img
@@ -312,7 +313,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="mx-12 md:mx-20">
+        <div className="md:mx-12 lg:mx-24">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/8.png"
@@ -326,8 +327,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-60">
-        <div className="mx-12 md:mx-20">
+      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+        <div className="md:mx-12 lg:mx-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Summary cards
           </h3>
@@ -340,7 +341,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="mx-12 md:mx-20">
+        <div className="md:mx-12 lg:mx-24">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/9.png"

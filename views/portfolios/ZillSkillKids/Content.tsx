@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-16 md:px-40 xl:px-56">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56">
         <Image
           src="/assets/casestudy/zillskill/1.png"
           alt=""
@@ -14,7 +14,7 @@ const Content = () => {
           height={746}
           layout="responsive"
         />
-        <div className="mx-12 md:mx-20 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -32,7 +32,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="We discovered that a lot kids are keen to explore about things that can’t necessarily be taught in a classroom environment. This was especially true for Indian kids who feel castigated for doing something that is termed as unconventional. My challenge was to help incorporate this feedback in ZILLSKILL and build functionalities that:"
           />
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <Text
@@ -63,7 +63,7 @@ const Content = () => {
             </li>
           </ol>
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -78,7 +78,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/zillskill/2.png"
           alt=""
@@ -89,14 +89,14 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="Once we collected all important data points, our next plan of action was to synthesize on the basis of feasibility and impact, and turn them into 3 core action items to design for."
           />
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-4">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
               <div className="flex">
                 <Text
@@ -159,7 +159,7 @@ const Content = () => {
             </li>
           </ol>
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -174,7 +174,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/zillskill/3.png"
           alt=""
@@ -185,8 +185,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
             Finding feature spaces
           </h3>
@@ -202,7 +202,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/zillskill/4.png"
           alt=""
@@ -213,8 +213,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
@@ -231,8 +231,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
             Building for emotions
           </h3>
@@ -242,7 +242,7 @@ const Content = () => {
             content="A key realization after some exploration was the importance of the format of presentation and UI details to deliver the assessment results in a fun, friendly and non-intimidating way. So, we decided to take the following design directions:"
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
             An ephemeral format
           </h3>
@@ -253,7 +253,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
         <Image
           src="/assets/casestudy/zillskill/6.png"
           alt=""
@@ -264,8 +264,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-16 md:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
             Bold graphics with vibrant colours
           </h3>
@@ -284,7 +284,7 @@ const Content = () => {
             layout="responsive"
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
             Positive reinforcements
           </h3>
@@ -303,7 +303,7 @@ const Content = () => {
             layout="responsive"
           />
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
             Inspiring role model
           </h3>
@@ -324,7 +324,7 @@ const Content = () => {
             />
           </div>
         </div>
-        <div className="mx-12 md:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
             Sharing
           </h3>

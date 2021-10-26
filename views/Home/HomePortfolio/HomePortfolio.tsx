@@ -9,7 +9,7 @@ const HomePortfolio = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-24 xl:gap-28">
           <div>
             <Link href="/" passHref>
-              <a className="block transform transition duration-500 hover:scale-105">
+              <a className="block cursor-default">
                 <Portfolio
                   title=""
                   desc=""

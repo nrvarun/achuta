@@ -7,7 +7,7 @@ const ZillSkillKids = () => {
       <div className="container mx-auto section-padding-x">
         <h1 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-2">Check</h1>
         <h2
-          className="text-lightdarkgrey text-3xl md:text-4xl xl:text-6xl sf-semibold pr-10 xl:pr-40"
+          className="text-lightdarkgrey text-3xl md:text-4xl xl:text-6xl sf-semibold md:pr-10 xl:pr-40 mb-12 md:mb-0"
           style={{ lineHeight: 1.065 }}
         >
           A citizen-driven violation reporting app
