@@ -40,7 +40,7 @@ const AngelOneWebPorfolio: NextPage = () => {
                     </div>
                   </div>
                   <div className="ml-4 md:ml-6">
-                    <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mb-2">
+                    <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mb-3">
                       AngelOne
                     </h4>
                     <p className="text-white text-xs  md:text-base xl:text-md sf-bold">
@@ -54,7 +54,7 @@ const AngelOneWebPorfolio: NextPage = () => {
               <Link href="/zillskill">
                 <a className="flex">
                   <div className="mr-4 md:mr-6 ml-auto">
-                    <h4 className="text-white text-sm md:text-md xl:text-3.5xl mb-2 sf-bold">
+                    <h4 className="text-white text-sm md:text-md xl:text-3.5xl mb-3 sf-bold">
                       ZILLSKILL
                     </h4>
                     <p className="text-white text-xs  md:text-base xl:text-md sf-bold">

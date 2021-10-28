@@ -5,14 +5,14 @@ const OverView = () => {
   return (
     <div className="container mx-auto section-padding-x">
       <div className="md:flex mt-4 md:mt-8 xl:mt-12">
-        <div className="w-full md:w-2/3 md:pr-16 xl:pr-32 mb-12 md:mb-0">
+        <div className="w-full md:w-2/3 md:pr-16 xl:pr-24 mb-12 md:mb-0">
           <Text
             content="OVERVIEW"
             classes="text-gray-500 mb-4 md:mb-6 sf-bold"
           />
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:mb-1 xl:text-2xl"
             content="To help curb rising traffic violations in Bengaluru city, the police released an application called Public Eye that empowers citizens to report violations on the road.  In the final semester of my 4 year engineering course, my team of two engineers and I set out to completely redesign this experience by bringing consumer growth tactics like virality and game design.  As the project lead, I was responsible for product ideation, studying user behaviour and crafting a compelling experience. I also assisted my team in writing algorithms for an optimised neural network to perform machine learning for automatic violation detection.."
           />
         </div>

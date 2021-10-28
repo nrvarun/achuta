@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className="py-10 md:py-16 xl:py-24">
+    <div className="pt-1 md:pt-3 pb-10 md:pb-16 xl:pb-24">
       <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56">
         <Image
           src="/assets/casestudy/check/1.png"
@@ -58,21 +58,26 @@ const Content = () => {
           </h3>
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="To understand users and incorporate a theory for game design, I ran generative user studies with friends and family. With qualitative data collected from this diverse group of individuals I created a wall of post-it’s with notes and ideas that could be implemented. By organising and synthesising the data, I created an affinity map to form distinguishable groups."
           />
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
-        <Image
-          src="/assets/casestudy/check/2.png"
-          alt=""
-          objectFit="cover"
-          className="h-auto w-full"
-          width={1068}
-          height={680}
-          layout="responsive"
-        />
+        <div
+          className="mx-auto text-center"
+          style={{ maxWidth: 1068, maxHeight: 678 }}
+        >
+          <Image
+            src="/assets/casestudy/check/2.png"
+            alt=""
+            objectFit="cover"
+            className="h-auto w-full"
+            width={1068}
+            height={678}
+            layout="responsive"
+          />
+        </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
         <div className="md:mx-12 lg:mx-24">
@@ -168,21 +173,26 @@ const Content = () => {
           />
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="My team and I developed an efficient implementation of a neural network to automatically detect violations. We used YOLOv2 algorithm (You Only Look Once) which is a unique convolutional neural network (CNN) for doing object detection is real time. The algorithm applies a single neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region. Predicted probabilities are assigned to the bounded box in the form of weights. This achieves high accuracy while also being able to run in real-time."
           />
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
-        <Image
-          src="/assets/casestudy/check/3.png"
-          alt=""
-          objectFit="cover"
-          className="h-auto w-full"
-          width={1084}
-          height={304}
-          layout="responsive"
-        />
+        <div
+          className="mx-auto text-center"
+          style={{ maxWidth: 1084, maxHeight: 304 }}
+        >
+          <Image
+            src="/assets/casestudy/check/3.png"
+            alt=""
+            objectFit="cover"
+            className="h-auto w-full"
+            width={1084}
+            height={304}
+            layout="responsive"
+          />
+        </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
         <div className="md:mx-12 lg:mx-24 mt-2 md:mt-4 xl:mt-8">
@@ -240,7 +250,7 @@ const Content = () => {
             </li>
           </ol>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md;mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             For the first usecase we came up with the idea of having users enter
@@ -248,19 +258,24 @@ const Content = () => {
             as an identifier. Their real identity is encrypted and will never be
             visible on any submitted violation.
           </p>
-          <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <Image
-              src="/assets/casestudy/check/4.png"
-              alt=""
-              objectFit="cover"
-              className="h-auto w-full"
-              width={416}
-              height={552}
-              layout="intrinsic"
-            />
+          <div className="text-center mb-2 md:mb-4 xl:mb-8 md:-ml-12 lg:-ml-24">
+            <div
+              className="mx-auto text-center"
+              style={{ maxWidth: 416, maxHeight: 552 }}
+            >
+              <Image
+                src="/assets/casestudy/check/4.png"
+                alt=""
+                objectFit="cover"
+                className="h-auto w-full"
+                width={416}
+                height={552}
+                layout="intrinsic"
+              />
+            </div>
           </div>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md;mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             To solve the second usecase, we introduced a feature that diables
@@ -278,16 +293,21 @@ const Content = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
-        <Image
-          src="/assets/casestudy/check/5.png"
-          alt=""
-          objectFit="cover"
-          className="h-auto w-full"
-          width={1224}
-          height={450}
-          layout="responsive"
-        />
+      <div className="container mx-auto px-8 md:px-16 lg:px-24 mb-6 md:mb-8">
+        <div
+          className="mx-auto text-center"
+          style={{ maxWidth: 1224, maxHeight: 448 }}
+        >
+          <Image
+            src="/assets/casestudy/check/5.png"
+            alt=""
+            objectFit="cover"
+            className="h-auto w-full"
+            width={1224}
+            height={448}
+            layout="responsive"
+          />
+        </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
         <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
@@ -296,19 +316,24 @@ const Content = () => {
           </h3>
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competiton and results in users contributing positively to build a safe environment "
           />
           <div className="text-center">
-            <Image
-              src="/assets/casestudy/check/6.png"
-              alt=""
-              objectFit="cover"
-              className="h-auto w-full"
-              width={265}
-              height={552}
-              layout="intrinsic"
-            />
+            <div
+              className="mx-auto text-center"
+              style={{ maxWidth: 265, maxHeight: 552 }}
+            >
+              <Image
+                src="/assets/casestudy/check/6.png"
+                alt=""
+                objectFit="cover"
+                className="h-auto w-full"
+                width={265}
+                height={552}
+                layout="intrinsic"
+              />
+            </div>
           </div>
         </div>
         <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
@@ -317,46 +342,56 @@ const Content = () => {
           </h3>
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="The best games create strong emotions. When designing for games we aim to tap into nuaced explicit and implicit emotions. The following framework of the Emotion Wheel from Junto Institute explains more clearly the subtleties we have to work with. For this application our users care deeply about for the society at large which gives them a feeling joy. Our design has to be for ‘Optimism’ and ‘Hopefulness’ because our users are looking to improve their society. Our designs must also be for ‘Pride’; when a user does a service for the society which rightly gives a sense of accomplishment. "
           />
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <Image
-              src="/assets/casestudy/check/7.png"
-              alt=""
-              objectFit="cover"
-              className="h-auto w-full"
-              width={528}
-              height={445}
-              layout="intrinsic"
-            />
+            <div
+              className="mx-auto text-center"
+              style={{ maxWidth: 528, maxHeight: 445 }}
+            >
+              <Image
+                src="/assets/casestudy/check/7.png"
+                alt=""
+                objectFit="cover"
+                className="h-auto w-full"
+                width={528}
+                height={445}
+                layout="intrinsic"
+              />
+            </div>
           </div>
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="In our application, we designed a rewards section that displays the badges and vouchers won by the user for being good citizens of the society. We carefully craft messages to convey a sense of pride and accomplishment."
           />
           <div className="text-center">
-            <Image
-              src="/assets/casestudy/check/8.png"
-              alt=""
-              objectFit="cover"
-              className="h-auto w-full"
-              width={265}
-              height={552}
-              layout="intrinsic"
-            />
+            <div
+              className="mx-auto text-center"
+              style={{ maxWidth: 265, maxHeight: 552 }}
+            >
+              <Image
+                src="/assets/casestudy/check/8.png"
+                alt=""
+                objectFit="cover"
+                className="h-auto w-full"
+                width={265}
+                height={552}
+                layout="intrinsic"
+              />
+            </div>
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-2 md:mb-4">
         <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             A holistic experience
           </h3>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md;mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-4 md:mb-8 xl:mb-12`}
             style={{ lineHeight: 1.5 }}
           >
             The three previous factors are vitals components to our game design
@@ -368,7 +403,7 @@ const Content = () => {
             task becomes intrisically motivating.
           </p>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md;mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             A vital condition to maintain good flow is ‘knowing what to do next
@@ -378,19 +413,24 @@ const Content = () => {
             flow in four easy steps.
           </p>
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <Image
-              src="/assets/casestudy/check/9.png"
-              alt=""
-              objectFit="cover"
-              className="h-auto w-full"
-              width={265}
-              height={552}
-              layout="intrinsic"
-            />
+            <div
+              className="mx-auto text-center"
+              style={{ maxWidth: 265, maxHeight: 552 }}
+            >
+              <Image
+                src="/assets/casestudy/check/9.png"
+                alt=""
+                objectFit="cover"
+                className="h-auto w-full"
+                width={265}
+                height={552}
+                layout="intrinsic"
+              />
+            </div>
           </div>
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="The application was mindfully designed to be extremely lightweight with just three sections: a profile page; rewards; and settings. This makes navigation through the application incredibly easy with minimum effort."
           />
           <div className="text-center">

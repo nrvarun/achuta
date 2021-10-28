@@ -5,7 +5,7 @@ const OverView = () => {
   return (
     <div className="container mx-auto section-padding-x">
       <div className="md:flex mt-4 md:mt-8 xl:mt-12">
-        <div className="w-full md:w-2/3 md:pr-16 xl:pr-32 mb-12 md:mb-0">
+        <div className="w-full md:w-2/3 md:pr-16 xl:pr-24 mb-12 md:mb-0">
           <Text
             content="OVERVIEW"
             classes="text-gray-500 mb-4 md:mb-6 sf-bold"
@@ -17,7 +17,7 @@ const OverView = () => {
           />
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:mb-1 xl:text-2xl"
             content="As a user experience designer, I defined visual hierarchies and data organization to establish relationships between the different modules of the web application. I closely collaborated with product support specialists to ensure that the experience would be cohesive and intuitive while maintain data integrity."
           />
         </div>

@@ -3,7 +3,7 @@ import OverView from "./OverView";
 
 const AngelOnePortfolio = () => {
   return (
-    <section className="bg-white py-8 md:py-12 xl:py-16">
+    <section className="bg-white pt-8 md:pt-12 xl:pt-16">
       <div className="container mx-auto section-padding-x mb-12 md:mb-0">
         <h1 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-2">
           AngelOne

@@ -71,3 +71,15 @@
     padding-right: 6.75rem;
   }
 }
+
+main {
+  margin-top: 40px;
+  
+  @media (min-width: 767px) {
+    margin-top: 60px;
+  }
+  
+  @media (min-width: 767px) {
+    margin-top: 80px;
+  }
+}

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Content = () => {
   return (
-    <div className="py-10 md:py-16 xl:py-24">
+    <div className="pt-10 mb-4 md:mb-9 md:pt-16 xl:pt-24">
       <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
         <Image
           src="/assets/casestudy/angel-1/1.png"
@@ -51,7 +51,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
             content="In order to achieve this we ran through a couple hundred post it notes creating user stories to understand workflows. After synthesising the user stories, we identified four broad sections to define the layout;"
           />
-          <ol className="pl-4">
+          <ol className="pl-1">
             <li className="mb-2">
               <div className="flex">
                 <Text
@@ -169,6 +169,8 @@ const Content = () => {
             classes="mb-4 md:mb-6 xl:mb-8 xl:text-2xl"
             content="Considering these conditions as guidelines and user stories as reference, I began to explore different viewing patterns and built heirarchies of information through high level sketches."
           />
+        </div>
+        <div className="md:mx-8 lg:mx-16">
           <Image
             src="/assets/casestudy/angel-1/2.png"
             alt=""
@@ -178,6 +180,8 @@ const Content = () => {
             height={564}
             layout="responsive"
           />
+        </div>
+        <div className="md:mx-12 lg:mx-24 mt-2 md:mt-4 xl:mt-8">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mt-4 md:mt-6 xl:mt-8 xl:text-2xl"
@@ -194,7 +198,7 @@ const Content = () => {
             content="The watchlist contained vital pieces of information for users in their investing or trading decision making process. So we talked to users to really understand what they are, how it’s useful and why they find it useful. The following insights helped inform my design rationale::"
           />
 
-          <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
+          <ol className="mb-4 md:mb-8 xl:mb-12 pl-0">
             <li className="mb-2">
               <div className="flex">
                 <img
@@ -256,27 +260,25 @@ const Content = () => {
               </div>
             </li>
           </ol>
-          <Text
-            style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-6 xl:mb-8 xl:text-2xl"
-            content="Considering these conditions as guidelines and user stories as reference, I began to explore different viewing patterns and built heirarchies of information through high level sketches."
-          />
-          <Image
-            src="/assets/casestudy/angel-1/3.png"
-            alt=""
-            objectFit="cover"
-            className="h-auto w-full"
-            width={702}
-            height={354}
-            layout="responsive"
-          />
+
+          <div className="md:mr-24 md:-ml-16">
+            <Image
+              src="/assets/casestudy/angel-1/3.png"
+              alt=""
+              objectFit="cover"
+              className="h-auto w-full"
+              width={702}
+              height={354}
+              layout="responsive"
+            />
+          </div>
           <Text
             style={{ lineHeight: 1.5 }}
             classes="my-4 md:my-6 xl:my-8 xl:text-2xl"
             content="The watchlist was built to support a lot of customizations. Many users requested to see the trends of market indexes at all times which let them gauge the overall conditions of the market. So we let users customize their watchlist view by allowing them to have any two indexes placed on top. Another feature that users wanted was the ability to quickly edit, create and navigate between watchlists."
           />
         </div>
-        <div className="mt-10 md:mt-16 xl:mt-24">
+        <div className="mb-2 mx-10">
           <Image
             src="/assets/casestudy/angel-1/4.png"
             alt=""
@@ -294,13 +296,13 @@ const Content = () => {
             </h3>
             <Text
               style={{ lineHeight: 1.5 }}
-              classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+              classes="mb-4 md:mb-8 xl:text-2xl"
               content="One of the conditions to a good flow was to bring intense and focused attention to the task. The core content frame is where all the action takes place. Whether it is viewing the fundamentals of a stock, viewing option chains or managing portfolios, it is in this area users divert most of their attention when consuming data throughout the application. Placing the main navigation on the top or hidden in a hamburger menu could feel like a disconnect with the core content frame. Hence, I decided to show it upfront and form a close association with the core content frame."
             />
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16">
+      <div className="container mx-auto px-8 md:px-16 xl:px-36 mb-2">
         <Image
           src="/assets/casestudy/angel-1/5.png"
           alt=""
@@ -318,19 +320,21 @@ const Content = () => {
           </h3>
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:text-2xl"
             content="Positioning the search bar was critical because in a stock trading app, there are a lot of complex types of securities one can access especially when a user searches for futures and options. Having a large search box on top of the page with filters helped create a clear distinction between each search result."
           />
 
-          <Image
-            src="/assets/casestudy/angel-1/6.png"
-            alt=""
-            objectFit="cover"
-            className="h-auto w-full"
-            width={730}
-            height={752}
-            layout="responsive"
-          />
+          <div className="mx-4">
+            <Image
+              src="/assets/casestudy/angel-1/6.png"
+              alt=""
+              objectFit="cover"
+              className="h-auto w-full"
+              width={730}
+              height={752}
+              layout="responsive"
+            />
+          </div>
         </div>
       </div>
     </div>
