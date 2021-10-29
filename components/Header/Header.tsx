@@ -3,11 +3,15 @@ import Link from "next/link";
 
 import { useRouter } from "next/router";
 
-const Header = () => {
+const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
   const router = useRouter();
 
   return (
-    <header className="py-5 md:py-6 bg-black fixed top-0 left-0 right-0 z-10">
+    <header
+      className={`py-5 md:py-6 bg-black ${
+        isScrolling ? "fixed" : "static"
+      } top-0 left-0 right-0 z-10`}
+    >
       <div className="container flex flex-row m-auto content-center section-padding-x">
         <div className="w-1/2 content-center flex">
           <Link href="/">

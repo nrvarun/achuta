@@ -12,7 +12,7 @@ type Portfolio = {
 
 const Portfolio = ({ title, desc, image = "", locked }: Portfolio) => {
   return (
-    <article>
+    <article className="relative">
       <div className={styles.wrapper}>
         <img
           className={styles.cta}
@@ -20,13 +20,7 @@ const Portfolio = ({ title, desc, image = "", locked }: Portfolio) => {
           alt={`click to view more about ${title}`}
         />
       </div>
-      <Image
-        src={image}
-        alt={desc}
-        className={styles.productImage}
-        width={558}
-        height={547}
-      />
+      <img src={image} alt={desc} className={styles.productImage} />
     </article>
   );
 };

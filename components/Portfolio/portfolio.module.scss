@@ -9,12 +9,9 @@
   height: auto;
   margin: 0 auto;
   
-  @media (min-width: 990px) {
-    height: 25rem;
-  }
-  
-  @media (min-width: 1200px) {
-    height: 35rem;
+  @media (min-width: 767px) {
+    max-width: 558px;
+    max-height: 547px;
   }
 }
 
@@ -31,8 +28,9 @@
   0 4px 4px rgb(0 0 0 / 5%), 
   0 6px 8px rgb(0 0 0 / 5%), 
   0 8px 16px rgb(0 0 0 / 5%);
+
   
-  @media (min-width: 576px) {
+  @media (min-width: 992px) {
     width: 2.5rem;
     height: 2.5rem;
     right: 1.5rem;

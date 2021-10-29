@@ -10,7 +10,10 @@ import AngelOneViz from "@views/portfolios/AngelOneViz";
 
 const AngelOneVisualHierarchy: NextPage = () => {
   return (
-    <Layout title="Achuta - Angel One Visual Hierarchies and Patterns">
+    <Layout
+      title="Achuta - Angel One Visual Hierarchies and Patterns"
+      hasScroll
+    >
       <AngelOneViz />
       <Outcomes
         title="Outcomes I helped drive"

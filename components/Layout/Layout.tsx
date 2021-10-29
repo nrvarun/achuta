@@ -2,7 +2,7 @@ import React from "react";
 import Head from "next/head";
 import Header from "@components/Header";
 
-const Layout = ({ children, title }: any) => {
+const Layout = ({ children, title, hasScroll }: any) => {
   return (
     <>
       <Head>
@@ -33,8 +33,8 @@ const Layout = ({ children, title }: any) => {
         <title>{title}</title>
       </Head>
       <div>
-        <Header />
-        <main>{children}</main>
+        <Header isScrolling={hasScroll} />
+        <main className={`${!hasScroll ? "mt-0" : ""}`}>{children}</main>
       </div>
     </>
   );

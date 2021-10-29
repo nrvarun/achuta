@@ -35,7 +35,7 @@ const Outcomes = ({ title, list, color, backgroundColor }: OutcomesType) => {
                   className={`text-xl md:text-2xl xl:text-2.5xl sf-semibold text-black xl:leading-relaxed ${
                     index !== list.length && "pr-4"
                   }`}
-                  style={{ color }}
+                  style={{ color, maxWidth: 333 }}
                 >
                   {item}
                 </p>

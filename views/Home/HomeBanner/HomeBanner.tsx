@@ -9,7 +9,7 @@ const HomeBanner = () => {
           advocate for some of the biggest brands in SE Asia.
         </h2>
         <img
-          src="/icons/banner-cta.svg"
+          src="/icons/arrow-banner.svg"
           alt=""
           className="bg-white mx-auto rounded-full block animate-bounce w-10 h-10 md:w-12 md:h-12 xl:w-14 xl:h-14"
         />

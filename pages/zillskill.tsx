@@ -10,7 +10,7 @@ import ZillSkillKids from "@views/portfolios/ZillSkillKids";
 
 const ZillSkill: NextPage = () => {
   return (
-    <Layout title="Achuta - ZILLSKILL A learning community for kids">
+    <Layout title="Achuta - ZILLSKILL A learning community for kids" hasScroll>
       <ZillSkillKids />
       <Outcomes
         title="Outcomes I helped drive"

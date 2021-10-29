@@ -10,7 +10,10 @@ import AngelOnePorfolio from "@views/portfolios/AngelOnePortfolio";
 
 const AngelOneWebPorfolio: NextPage = () => {
   return (
-    <Layout title="Achuta - Angel One Visual Hierarchies and Patterns">
+    <Layout
+      title="Achuta - Angel One Visual Hierarchies and Patterns"
+      hasScroll
+    >
       <AngelOnePorfolio />
       <Outcomes
         title="Outcomes I helped drive"

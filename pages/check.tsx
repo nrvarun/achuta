@@ -10,7 +10,7 @@ import CheckCitizen from "@views/portfolios/CheckCitizen";
 
 const Check: NextPage = () => {
   return (
-    <Layout title="Achuta - Check A learning community for kids">
+    <Layout title="Achuta - Check A learning community for kids" hasScroll>
       <CheckCitizen />
       <Outcomes
         title="Outcomes I helped drive"
