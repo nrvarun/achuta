@@ -43,7 +43,7 @@ const AngelOneWebPorfolio: NextPage = () => {
                     </div>
                   </div>
                   <div className="ml-4 md:ml-6">
-                    <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mb-3">
+                  <h4 className="text-white text-sm sf-bold md:text-md xl:text-3.5xl mb-3">
                       AngelOne
                     </h4>
                     <p className="text-white text-xs  md:text-base xl:text-md sf-bold">
