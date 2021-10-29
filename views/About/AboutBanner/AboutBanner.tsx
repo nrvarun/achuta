@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const AboutBanner = () => {
   return (
-    <section className="min-h-screen bg-black py-10 pb-12 md:py-16 xl:py-32">
+    <section className="bg-black py-10 pb-12 md:py-16 xl:py-32">
       <div className="container mx-auto section-padding-x xl:mb-20">
         <div className="md:flex gap-8 md:gap-10 xl:gap-12">
           <div className="w-full md:w-2/5">

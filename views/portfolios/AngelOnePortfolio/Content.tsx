@@ -57,7 +57,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">Active traders</span> who invest and
@@ -75,7 +75,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">passive traders</span> who invest by
@@ -93,7 +93,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
@@ -230,7 +230,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
@@ -266,7 +266,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
@@ -302,7 +302,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   Keeping track of past orders and their performance is

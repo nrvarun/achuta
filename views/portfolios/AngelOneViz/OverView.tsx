@@ -29,7 +29,7 @@ const OverView = () => {
           <div className="mb-4 md:mb-8 xl:mb-12">
             <Text
               content="COLLABORATORS"
-              classes="text-gray-500 mb-2 sf-bold "
+              classes="text-gray-500 mb-2 sf-bold"
             />
             <Text
               content="Jai Prasanna, Business Analyst"

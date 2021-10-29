@@ -208,7 +208,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   Users{" "}
@@ -230,7 +230,7 @@ const Content = () => {
                   className="w-4 h-4 md:w-6 md:h-6 mr-4 mt-2"
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">Seeing what is relevant</span> is
@@ -248,7 +248,7 @@ const Content = () => {
                 />
 
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">

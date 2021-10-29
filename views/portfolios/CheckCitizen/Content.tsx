@@ -100,7 +100,7 @@ const Content = () => {
                   content="1."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   Goals
@@ -115,7 +115,7 @@ const Content = () => {
                   content="2."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   challenges
@@ -130,7 +130,7 @@ const Content = () => {
                   content="3."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   emotions
@@ -145,7 +145,7 @@ const Content = () => {
                   content="4."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   flows
@@ -223,7 +223,7 @@ const Content = () => {
                   content="1."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   Some users for obvious reasons, did not want to reveal their
@@ -239,7 +239,7 @@ const Content = () => {
                   content="2."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   If the user spots a violation while in motion in a vehicle,

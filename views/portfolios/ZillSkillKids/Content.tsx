@@ -107,7 +107,7 @@ const Content = () => {
                   content="1."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
@@ -128,7 +128,7 @@ const Content = () => {
                   content="2."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
@@ -148,7 +148,7 @@ const Content = () => {
                   content="3."
                 />
                 <p
-                  className={`text-md md:text-xl text-black sf-medium xl:text-2xl`}
+                  className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
