@@ -23,7 +23,7 @@ const AboutBanner = () => {
                 className="text-white sf-medium text-md md:text-xl xl:text-2xl mb-8 xl:mb-12"
                 style={{ lineHeight: 1.5 }}
               >
-                Hey there! I am an engineer by academic training and product
+                Hey there! I am an engineer by academic training and a product
                 designer by passion. What keeps me motivated endlessly is any
                 unique opportunity to design data-informed products that can
                 impact millions of people in this connected and diverse world.
@@ -36,7 +36,7 @@ const AboutBanner = () => {
                 critical thinking to product strategy, experience design, and
                 design eminence. I keep human-centered design at the core of all
                 my products and ensure that it is impactful, resplendent, and
-                practical at any scale or formfactor. I'm always looking for
+                practical at any scale or form factor. I'm always looking for
                 opportunities to learn and work with people who have excelled in
                 tenets of human-centered product design.
               </p>
