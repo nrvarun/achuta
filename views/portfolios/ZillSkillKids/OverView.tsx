@@ -13,7 +13,7 @@ const OverView = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="ZILLSKILL is a platform that provides a learning community for kids to bring out the best in them and explore their inner passion. They can engage in interactive activities with learning opportunities while interacting with their peers. We were responsible for delivering an enriching and engaging experience that allow kids to do stuff they are deeply passionate about, whethers it’s building a game on Roblox or becoming a YouTuber."
+            content="ZILLSKILL is a platform that provides a learning community for kids to bring out the best in them and explore their inner passion. They can engage in interactive activities with learning opportunities while interacting with their peers. We were responsible for delivering an enriching and engaging experience that allow kids to do stuff they are deeply passionate about, whether it’s building a game on Roblox or becoming a YouTuber."
           />
           <Text
             style={{ lineHeight: 1.5 }}
@@ -44,7 +44,7 @@ const OverView = () => {
               classes="mb-1 xl:text-2xl"
             />
             <Text
-              content="Dr. Shafali Batra, Child Psychairist"
+              content="Dr. Shafali Batra, Child Psychiatrist"
               classes="xl:text-2xl"
             />
           </div>

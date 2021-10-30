@@ -30,7 +30,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="We discovered that a lot kids are keen to explore about things that can’t necessarily be taught in a classroom environment. This was especially true for Indian kids who feel castigated for doing something that is termed as unconventional. My challenge was to help incorporate this feedback in ZILLSKILL and build functionalities that:"
+            content="We discovered that a lot of kids are keen to explore  things that can’t necessarily be taught in a classroom environment. This was especially true for Indian kids who feel castigated for doing something that is termed as unconventional. My challenge was to help incorporate this feedback in ZILLSKILL and build functionalities that:"
           />
           <ol className="mb-4 md:mb-8 xl:mb-12 pl-1">
             <li className="mb-2">
@@ -162,17 +162,13 @@ const Content = () => {
           </ol>
         </div>
         <div className="md:mx-12 lg:mx-20 mt-10 md:mt-16 xl:mt-24">
-          <Text
-            content="IDEATION"
-            classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
-          />
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
             The recommendation system
           </h3>
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="As pointed out eariler, there were two requirements that design had to solve for: Help kids unlock their true potential and build a recommendation system. The engineering teams only had enough bandwidth to create a basic recommendation system. So, we decided that when a user creates a new ZILLSKILL profile, we will lead them through a carefully crafted assessment program that he called ZAP (ZILLSKILL Assessment Program) with questions tailored for each age group.  "
+            content="As pointed out earlier, there were two requirements that design had to solve for: Help kids unlock their true potential and build a recommendation system. The engineering teams only had enough bandwidth to create a basic recommendation system. So, we decided that when a user creates a new ZILLSKILL profile, we will lead them through a carefully crafted assessment program that he called ZAP (ZILLSKILL Assessment Program) with questions tailored for each age group.  "
           />
         </div>
       </div>
@@ -263,7 +259,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
-            content="Kids have much shorter attention span than adults, and hence, I designed a unique experience to show the results in short and sweet fleeting moments to retain kids’ interest. Test results are always intimidating. By allowing kids to indulge in engaging content in a unique format will help divert from feelings of intimidation to feelings of excitment."
+            content="Kids have much shorter attention span than adults, and hence, I designed a unique experience to show the results in short and sweet fleeting moments to retain kids’ interest. Test results are always intimidating. By allowing kids to indulge in engaging content in a unique format will help divert from feelings of intimidation to feelings of excitement."
           />
         </div>
       </div>
@@ -286,7 +282,7 @@ const Content = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-2">
         <div className="md:mx-12 lg:mx-20 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
-            Bold graphics with vibrant colours
+            Bold graphics with vibrant colors
           </h3>
           <Text
             style={{ lineHeight: 1.5 }}
@@ -315,7 +311,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
-            content="Strong emotions are the foundations of our memory. Using powerful vocabulary to descibe the personality of the kids helps keep them motivated and instills a sense of of happiness and pride."
+            content="Strong emotions are the foundations of our memory. Using powerful vocabulary to describe the personality of the kids helps keep them motivated and instills a sense of      happiness and pride."
           />
           <div
             className="mx-auto text-center"

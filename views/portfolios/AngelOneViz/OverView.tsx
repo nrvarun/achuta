@@ -13,12 +13,12 @@ const OverView = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="AngelOne aims to empower and democratize the financial system by allowing people to partake as retail investors in any corner of India. As an Experience Designer I was reponsible for the creation of a unified web experience for any user but more specifically catering to pro and intermediate users who use larger displays to minutely analyze and trade financial instruments."
+            content="AngelOne aims to empower and democratize the financial system by allowing people to partake as retail investors in any corner of India. As an Experience Designer I was responsible for the creation of a unified web experience for any user but more specifically catering to pro and intermediate users who use larger displays to minutely analyze and trade financial instruments."
           />
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-1 xl:text-2xl"
-            content="As a user experience designer, I defined visual hierarchies and data organization to establish relationships between the different modules of the web application. I closely collaborated with product support specialists to ensure that the experience would be cohesive and intuitive while maintain data integrity."
+            content="As a user experience designer, I defined visual hierarchies and data organization to establish relationships between the different modules of the web application. I closely collaborated with product support specialists to ensure that the experience would be cohesive and intuitive while maintaining data integrity."
           />
         </div>
         <div className="w-full md:w-1/3">

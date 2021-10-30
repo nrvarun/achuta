@@ -6,7 +6,7 @@ const HomeBanner = () => {
         <h2 className="text-2xl md:text-3xl xl:text-5xl text-center sf-medium text-white py-10 pb-16 md:py-20 xl:py-36 leading-smug xl:leading-tight px-5 md:px-16 xl:px-10">
           A <span className="sf-bold">Product Designer</span> with a passion for
           emerging technologies and human-centred design. Enthusiastic user
-          advocate for some of the biggest brands in SE Asia.
+          advocate for some of the biggest brands in Asia.
         </h2>
         <img
           src="/icons/arrow-banner.svg"

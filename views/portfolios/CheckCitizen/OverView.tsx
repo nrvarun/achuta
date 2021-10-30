@@ -13,7 +13,7 @@ const OverView = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-1 xl:text-2xl"
-            content="To help curb rising traffic violations in Bengaluru city, the police released an application called Public Eye that empowers citizens to report violations on the road.  In the final semester of my 4 year engineering course, my team of two engineers and I set out to completely redesign this experience by bringing consumer growth tactics like virality and game design.  As the project lead, I was responsible for product ideation, studying user behaviour and crafting a compelling experience. I also assisted my team in writing algorithms for an optimised neural network to perform machine learning for automatic violation detection.."
+            content="To help curb rising traffic violations in Bengaluru city, the police released an application called Public Eye that empowers citizens to report violations on the road.  In the final semester of my 4 year engineering course, my team of two engineers and I set out to completely redesign this experience by bringing consumer growth tactics like virality and game design.  As the project lead, I was responsible for product ideation, studying user behaviour and crafting a compelling experience. I also assisted my team in writing algorithms for an optimized neural network to perform machine learning for automatic violation detection."
           />
         </div>
         <div className="w-full md:w-1/3">

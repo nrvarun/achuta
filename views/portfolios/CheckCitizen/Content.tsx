@@ -25,7 +25,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="The police to population ratio in the city of Bengaluru is one the lowest in the world. With traffic congestion and understaffed police many violation go undetected. To help citizens be more reponsible, the Bangalore Traffic Police (BTP) released an application called Public Eye that would let users take pictures of violations and immediately upload it onto the BTP portal. Although the initiative helped marginally increase detection of violations, it did not bring down the number of traffic offences."
+            content="The police to population ratio in the city of Bengaluru is one the lowest in the world. With traffic congestion and understaffed police many violation go undetected. To help citizens be more responsible, the Bangalore Traffic Police (BTP) released an application called Public Eye that would let users take pictures of violations and immediately upload it onto the BTP portal. Although the initiative helped marginally increase detection of violations, it did not bring down the number of traffic offences."
           />
           <Text
             style={{ lineHeight: 1.5 }}
@@ -49,7 +49,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="I decided that the core goal was that there must be something that triggers instrinsic motivation that inherently motivates the users to use the app. The experience of the application should not be gamified by just adding points, levels and badges. When we do things to earn rewards and achieve external goals it largely reduces the effects of intrinsic motivation. The only way to make gamfication work is to design the underlying experience to already be a game."
+            content="I decided that the core goal was that there must be something that triggers intrinsic motivation that inherently motivates the users to use the app. The experience of the application should not be gamification by just adding points, levels and badges. When we do things to earn rewards and achieve external goals it largely reduces the effects of intrinsic motivation. The only way to make gamfication work is to design the underlying experience to already be a game."
           />
         </div>
         <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
@@ -317,7 +317,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
-            content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competiton and results in users contributing positively to build a safe environment "
+            content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competition and results in users contributing positively to build a safe environment "
           />
           <div className="text-center">
             <div
@@ -343,7 +343,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
-            content="The best games create strong emotions. When designing for games we aim to tap into nuaced explicit and implicit emotions. The following framework of the Emotion Wheel from Junto Institute explains more clearly the subtleties we have to work with. For this application our users care deeply about for the society at large which gives them a feeling joy. Our design has to be for ‘Optimism’ and ‘Hopefulness’ because our users are looking to improve their society. Our designs must also be for ‘Pride’; when a user does a service for the society which rightly gives a sense of accomplishment. "
+            content="The best games create strong emotions. When designing for games we aim to tap into nuanced explicit and implicit emotions. The following framework of the Emotion Wheel from Junto Institute explains more clearly the subtleties we have to work with. For this application our users care deeply about for the society at large which gives them a feeling joy. Our design has to be for ‘Optimism’ and ‘Hopefulness’ because our users are looking to improve their society. Our designs must also be for ‘Pride’; when a user does a service for the society which rightly gives a sense of accomplishment. "
           />
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
             <div
@@ -394,21 +394,21 @@ const Content = () => {
             className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-4 md:mb-8 xl:mb-12`}
             style={{ lineHeight: 1.5 }}
           >
-            The three previous factors are vitals components to our game design
+            The three previous factors are vital components to our game design
             approach, but the one that stitches all of it together to form a{" "}
             <span className="sf-bold">holistic experience, is the flow.</span>{" "}
-            Designing a flow must bring intense and focused concentration to the
-            task. It must be so absorbing that we don’t get distracted about the
-            next or the previous steps. The flow must be so rewarding that the
-            task becomes intrisically motivating.
+            Designing a flow must bring intensely and focused concentration to
+            the task. It must be so absorbing that we don’t get distracted about
+            the next or the previous steps. The flow must be so rewarding that
+            the task becomes intrinsically motivating.
           </p>
           <p
             className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             A vital condition to maintain good flow is ‘knowing what to do next
-            and know how to do it’. So to help users familiarize with how the
-            app works we will show them a quick{" "}
+            and know how to do it’. So to help users familiarize themselves with
+            how the app works we will show them a quick{" "}
             <span className="sf-bold">onboarding screen</span> explaining the
             flow in four easy steps.
           </p>

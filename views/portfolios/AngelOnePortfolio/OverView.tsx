@@ -13,7 +13,7 @@ const OverView = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="AngelOne is going through a digital transformation, wherein they are completely redesigning their stock trading applications with focused objective to appeal to Gen-Z and Millennial traders. I was responsible for working across the AngelOne’s stock trading products from designing and the shipping the stock overview and fundamentals page to the portfolio manager."
+            content="AngelOne is going through a digital transformation, wherein they are completely redesigning their stock trading applications with a focused objective to appeal to Gen-Z and Millennial traders. I was responsible for working across the AngelOne’s stock trading products from designing and shipping the stock overview and fundamentals page to the portfolio manager."
           />
           <Text
             style={{ lineHeight: 1.5 }}

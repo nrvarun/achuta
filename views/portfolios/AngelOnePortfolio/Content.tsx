@@ -26,7 +26,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="A portfolio is the window into all the securities and assets owned by a user and single source of truth for users to track and manage asset classes. Key activities like risk assessments, asset allocation, diversification, and rebalancing happen primarily through a portfolio manager. Usually this was a task executed by professionally hired managers responsible for making decisions on a clients’ behalf. Democratizing this activity would now let all users have equal access to financial markets which is both a boon and a bane - because it becomes just as easy to make bad trading decisions.."
+            content="A portfolio is the window into all the securities and assets owned by a user and single source of truth for users to track and manage asset classes. Key activities like risk assessments, asset allocation, diversification, and rebalancing happen primarily through a portfolio manager. Usually this was a task executed by professionally hired managers responsible for making decisions on a clients’ behalf. Democratizing this activity would now let all users have equal access to financial markets which is both a boon and a bane - because it becomes just as easy to make bad trading decisions."
           />
           <Text
             style={{ lineHeight: 1.5 }}
@@ -45,7 +45,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="To understand different types of trading behavious we talked to users and gathered the following insights:"
+            content="To understand different types of trading behaviors we talked to users and gathered the following insights:"
           />
           <ol className="mb-4 md:mb-8 xl:mb-12 pl-0">
             <li className="mb-2">
@@ -145,7 +145,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="The three main main sections we decided to show upfront is open orders, open positions and holdings. Both order history and closed positions were placed under tab headings ‘open orders’ and ‘positions’ respectively, because we learnt this was not an essential part of a traders workflow to be shown upfront in separate tabs."
+            content="The three main sections we decided to show upfront is open orders, open positions and holdings. Both order history and closed positions were placed under tab headings ‘open orders’ and ‘positions’ respectively, because we learned this was not an essential part of a traders workflow to be shown upfront in separate tabs."
           />
         </div>
         <div className="md:mx-12 lg:mx-20 lg:px-3 mt-10 md:mt-16 xl:mt-24">
@@ -164,7 +164,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
-            content="Designing for web did not mean that we could use the larger form factor to display all the information in one view. Through research ie. Context of Use, we learnt that there were specific data points users placed higher in the information hierarchy. So I set a standard in the design language which would define 2 tier hierachy for each listed Security. Tier 1 would will help give 30,000 foot view, and if there is clear intent to learn more and take action, then a drop down with more data is presented."
+            content="Designing for web did not mean that we could use the larger form factor to display all the information in one view. Through research ie. Context of Use, we learnt that there were specific data points users placed higher in the information hierarchy. So I set a standard in the design language which would define 2 tier hierarchy for each listed Security. Tier 1 would will help give 30,000 foot view, and if there is clear intent to learn more and take action, then a drop down with more data is presented."
           />
         </div>
       </div>
@@ -269,10 +269,8 @@ const Content = () => {
                   className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
-                  <span className="sf-bold">
-                    When an order gets cancelled,{" "}
-                  </span>{" "}
-                  a detailed explaination on the root cause of the cancellation
+                  <span className="sf-bold">When an order gets canceled, </span>{" "}
+                  a detailed explanation on the root cause of the cancellation
                   is presented in a form that gets the users’ attention.
                 </p>
               </div>
@@ -306,13 +304,13 @@ const Content = () => {
                   style={{ lineHeight: 1.5 }}
                 >
                   Keeping track of past orders and their performance is
-                  important for users when they have to plan for futures trades.
+                  important for users when they have to plan for future trades.
                   So, I organized the{" "}
                   <span className="sf-bold">order history page</span> by clearly
                   differentiating between ‘today’s orders’ and ‘past orders’. I
                   also designed a{" "}
                   <span className="sf-bold">
-                    seach function and date filters
+                    search function and date filters
                   </span>{" "}
                   to help users quickly find what they are looking for.
                 </p>

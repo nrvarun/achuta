@@ -25,12 +25,12 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="Before we could begin researching ways to attract users to a new and bigger platform which complements the already existing mobile app, a critical problem needed to be addressed. Typically a web platform serves to proficient users who have good a working knowledge of stock trading. But though research we also found users who transistion from a novice skill level to advanced skill level are likely to use the web platforms as an extension to support their portfolios built primarily on a mobile app."
+            content="Before we could begin researching ways to attract users to a new and bigger platform that complements the already existing mobile app, a critical problem needed to be addressed. Typically a web platform serves to proficient users who have good a working knowledge of stock trading. But through research we also found users who transition from a novice skill level to advanced skill level are likely to use the web platforms as an extension to support their portfolios built primarily on a mobile app."
           />
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="Before we could begin researching ways to attract users to a new and bigger platform which complements the already existing mobile app, a critical problem needed to be addressed. Typically a web platform serves to proficient users who have good a working knowledge of stock trading. But though research we also found users who transistion from a novice skill level to advanced skill level are likely to use the web platforms as an extension to support their portfolios built primarily on a mobile app."
+            content="Our challenge here is to define a foundational guideline for the platform by striking a perfect balance of not oversimplifying for pro users and not overcomplicating for intermediate users. To accomplish this, our first plan of action was to understand and prioritize what was most valuable to each user group and focus on that."
           />
         </div>
         <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
@@ -44,12 +44,12 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="To push forward our ideation we set the driving statement as form complementing function. Building a whole host of tools and features helps users make better and more advanced trades, but what we found through research is that because a stock trading application is so technical and complex, users tend to miss out small but costly details. With this in mind, we kept the technical functionality at the core and building a form around it."
+            content="To push forward our ideation we set the driving statement as form complementing function. Building a whole host of tools and features helps users make better and more advanced trades, but what we found through research is that because a stock trading application is so technical and complex, users tend to miss out on small but costly details. With this in mind, we kept the technical functionality at the core and building a form around it."
           />
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="In order to achieve this we ran through a couple hundred post it notes creating user stories to understand workflows. After synthesising the user stories, we identified four broad sections to define the layout;"
+            content="In order to achieve this we ran through a couple hundred post it notes creating user stories to understand workflows. After synthesizing the user stories, we identified four broad sections to define the layout;"
           />
           <ol className="pl-1">
             <li className="mb-2">
@@ -167,7 +167,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-6 xl:mb-8 xl:text-2xl"
-            content="Considering these conditions as guidelines and user stories as reference, I began to explore different viewing patterns and built heirarchies of information through high level sketches."
+            content="Considering these conditions as guidelines and user stories as reference, I began to explore different viewing patterns and built hierarchies of information through high level sketches."
           />
         </div>
         <div className="md:mx-8 lg:mx-16">
@@ -195,7 +195,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="The watchlist contained vital pieces of information for users in their investing or trading decision making process. So we talked to users to really understand what they are, how it’s useful and why they find it useful. The following insights helped inform my design rationale::"
+            content="The watchlist contained vital pieces of information for users in their investing or trading decision-making process. So we talked to users to really understand what they are, how it’s useful and why they find it useful. The following insights helped inform my design rationale::"
           />
 
           <ol className="mb-4 md:mb-8 xl:mb-12 pl-0">
@@ -217,7 +217,7 @@ const Content = () => {
                   and objectives. To get the best outcomes, advanced traders
                   monitor these baskets regularly and use those insights for
                   their buy and sell decisions. Allowing users to always have a
-                  view of these regularily tracked securities in a watchlist
+                  view of these regularly tracked securities in a watchlist
                   seemed like a must have.
                 </p>
               </div>
@@ -252,7 +252,7 @@ const Content = () => {
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
-                    Making it easier to identify opputunities.
+                    Making it easier to identify opportunities.
                   </span>
                   With a watchlist, traders are able to easily identify trading
                   opportunities, especially for short term traders.
