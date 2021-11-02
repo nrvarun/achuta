@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="pt-1 md:pt-3 pb-10 md:pb-16 xl:pb-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-56">
         <Image
           src="/assets/casestudy/check/1.png"
           alt=""
@@ -14,7 +14,7 @@ const Content = () => {
           height={746}
           layout="responsive"
         />
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -33,7 +33,7 @@ const Content = () => {
             content="The simple reason was that Public Eye had very poor user experience. Users complained that a lot of violations submitted is being overlooked by the police as it was being processed manually and no prompt action is initiated against violators. Hence there was really no real incentive for users to be good samaritans."
           />
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -52,7 +52,7 @@ const Content = () => {
             content="I decided that the core goal was that there must be something that triggers intrinsic motivation that inherently motivates the users to use the app. The experience of the application should not be gamification by just adding points, levels and badges. When we do things to earn rewards and achieve external goals it largely reduces the effects of intrinsic motivation. The only way to make gamfication work is to design the underlying experience to already be a game."
           />
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Understanding the users
           </h3>
@@ -63,7 +63,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 mb-6 m40 2xl:px-56mb-8">
         <div
           className="mx-auto text-center"
           style={{ maxWidth: 1068, maxHeight: 678 }}
@@ -79,8 +79,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="md:mx-12 lg:mx-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
@@ -154,7 +154,7 @@ const Content = () => {
             </li>
           </ol>
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             A good goal
           </h3>
@@ -178,7 +178,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 mb-6 md:mb-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 mb-6 m40 2xl:px-56mb-8">
         <div
           className="mx-auto text-center"
           style={{ maxWidth: 1084, maxHeight: 304 }}
@@ -194,8 +194,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="md:mx-12 lg:mx-24 mt-2 md:mt-4 xl:mt-8">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-2 md:mt-4 xl:mt-8">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
@@ -204,8 +204,8 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Safety and privacy
           </h3>
@@ -309,8 +309,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-6 md:mb-8">
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-56 mb-6 md:mb-8">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Challenges motivate users
           </h3>
@@ -336,7 +336,7 @@ const Content = () => {
             </div>
           </div>
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Strong emotions
           </h3>
@@ -385,8 +385,8 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-56 mb-2 md:mb-4">
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 2xl:px-56 mb-2 md:mb-4">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             A holistic experience
           </h3>

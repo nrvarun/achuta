@@ -9,7 +9,7 @@ const AngelOneViz = () => {
           AngelOne
         </h1>
         <h2
-          className="text-gold text-3xl md:text-4xl xl:text-6xl sf-semibold pr-12 md:pr-20 xl:pr-40"
+          className="text-gold text-3xl md:text-4xl xl:text-5xl 2xl:text-6xl sf-semibold pr-12 md:pr-20 xl:pr-24"
           style={{ lineHeight: 1.065 }}
         >
           Visual hierarchies and patterns for stock trading web application

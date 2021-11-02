@@ -18,9 +18,9 @@ const AboutBanner = () => {
             </div>
           </div>
           <div className="w-full md:w-3/5">
-            <article className="md:pr-12">
+            <article className="md:pr-12 lg:pr-1 xl:pr-12">
               <p
-                className="text-white sf-medium text-md md:text-xl xl:text-2xl mb-8 xl:mb-12"
+                className="text-white sf-medium text-md md:text-xl xxl:text-2xl mb-8 xl:mb-12"
                 style={{ lineHeight: 1.5 }}
               >
                 Hey there! I am an engineer by academic training and a product
@@ -29,7 +29,7 @@ const AboutBanner = () => {
                 impact millions of people in this connected and diverse world.
               </p>
               <p
-                className="text-white sf-medium text-md md:text-xl xl:text-2xl"
+                className="text-white sf-medium text-md md:text-xl xxl:text-2xl"
                 style={{ lineHeight: 1.5 }}
               >
                 I am passionate about applying my ingrained creativity and

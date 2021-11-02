@@ -5,7 +5,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
         <Image
           src="/assets/casestudy/angel-2/1.png"
           alt=""
@@ -20,7 +20,7 @@ const Content = () => {
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
           />
-          <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
+          <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Easy trading - boon or bane?
           </h3>
           <Text
@@ -39,7 +39,7 @@ const Content = () => {
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
           />
-          <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
+          <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Designing around mental models
           </h3>
           <Text
@@ -124,7 +124,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3">
           <Text
             style={{ lineHeight: 1.5 }}
@@ -149,7 +149,7 @@ const Content = () => {
           />
         </div>
         <div className="md:mx-12 lg:mx-20 lg:px-3 mt-10 md:mt-16 xl:mt-24">
-          <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
+          <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Details make the design
           </h3>
           <Text
@@ -183,7 +183,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Quick actions on hover
@@ -210,7 +210,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Thoughtfully designed nudges
@@ -334,7 +334,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Summary cards

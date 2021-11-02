@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="pt-10 mb-4 md:mb-9 md:pt-16 xl:pt-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 2xl:px-60">
         <Image
           src="/assets/casestudy/angel-1/1.png"
           alt=""
@@ -14,7 +14,7 @@ const Content = () => {
           height={536}
           layout="responsive"
         />
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -33,7 +33,7 @@ const Content = () => {
             content="Our challenge here is to define a foundational guideline for the platform by striking a perfect balance of not oversimplifying for pro users and not overcomplicating for intermediate users. To accomplish this, our first plan of action was to understand and prioritize what was most valuable to each user group and focus on that."
           />
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -110,7 +110,7 @@ const Content = () => {
             </li>
           </ol>
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-gold">
             Crafting the interface
           </h3>
@@ -181,14 +181,14 @@ const Content = () => {
             layout="responsive"
           />
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-2 md:mt-4 xl:mt-8">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-2 md:mt-4 xl:mt-8">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mt-4 md:mt-6 xl:mt-8 xl:text-2xl"
             content="From the ideas and directions decided from the sketches, I started to flesh them out into higher fidelity wireframes. Considering multiple factors related to business and technical functions, I took the following design decisions:"
           />
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
             Sticky Watchlist
           </h3>
@@ -289,7 +289,7 @@ const Content = () => {
             layout="responsive"
           />
         </div>
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <div className="mx-2">
             <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
               Core content area and navigator
@@ -313,8 +313,8 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-40 xl:px-60">
-        <div className="md:mx-12 lg:mx-24 mt-10 md:mt-16 xl:mt-24">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 2xl:px-60">
+        <div className="md:mx-12 xl:mx-16 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
             Universal search bar
           </h3>

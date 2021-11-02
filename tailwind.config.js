@@ -17,9 +17,14 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      screens: {
+        xxl: "1360px",
+      },
       fontSize: {
         "2.5xl": "1.75rem",
         "3.5xl": "2rem",
+        "4.5xl": "2.5rem",
+        "5.5xl": "3.5rem",
       },
       textColor: {
         gold: "#B8997B",
@@ -33,7 +38,6 @@ module.exports = {
           md: "90%",
           lg: "992px",
           xl: "1200px",
-          "2xl": "1440px",
         },
       },
     },

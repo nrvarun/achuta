@@ -17,7 +17,7 @@ const Outcomes = ({ title, list, color, backgroundColor }: OutcomesType) => {
         >
           {title}
         </h3>
-        <ul className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-20">
+        <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20 lg:gap-8 2xl:gap-20">
           {list.map((item, index) => (
             <li key={index}>
               <div className="flex">
@@ -33,7 +33,7 @@ const Outcomes = ({ title, list, color, backgroundColor }: OutcomesType) => {
                 </div>
                 <p
                   className={`text-xl md:text-2xl xl:text-2.5xl sf-semibold text-black xl:leading-relaxed ${
-                    index !== list.length && "pr-4"
+                    index !== list.length && "pr-0"
                   }`}
                   style={{ color, maxWidth: 333 }}
                 >
