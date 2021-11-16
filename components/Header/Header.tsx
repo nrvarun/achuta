@@ -8,12 +8,12 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
 
   return (
     <header
-      className={`py-5 md:py-6 bg-black ${
+      className={`py-5 md:py-6 bg-black section-padding-x px-0 ${
         isScrolling ? "fixed" : "static"
       } top-0 left-0 right-0 z-10`}
     >
-      <div className="container flex flex-row m-auto content-center section-padding-x">
-        <div className="w-1/2 content-center flex">
+      <div className="container m-auto content-center grid grid-cols-2">
+        <div className="content-center flex">
           <Link href="/">
             <a className="no-underline">
               <h1 className="sf-heavy capitalize text-xl md:text-2xl xl:text-3.5xl text-white my-auto">
@@ -22,7 +22,7 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
             </a>
           </Link>
         </div>
-        <div className="w-1/2 flex">
+        <div className="flex">
           <nav className="ml-auto my-auto">
             <ul className="flex ml-auto">
               <li className="mr-5 xl:mr-10">

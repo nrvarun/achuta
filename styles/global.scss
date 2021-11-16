@@ -88,27 +88,21 @@ main {
     margin-top: 60px;
   }
   
-  @media (min-width: 767px) {
+  @media (min-width: 992px) {
     margin-top: 80px;
   }
 }
 
 .container {
-  width: 100%;
-
-  @media (min-width: 992px) {
-    max-width: 962px;
-  }
-
-  @media (min-width: 1200px) {
-    max-width: 1170px;
-  }
-
-  @media (min-width: 1300px) {
-    max-width: 1270px;
-  }
-
   @media (min-width: 1440px) {
-    max-width: 1420px;
+    max-width: 1320px;
+  }
+
+  @media (min-width: 1600px) {
+    max-width: 1520px;
+  }
+
+  @media (min-width: 1920px) {
+    max-width: 1820px;
   }
 }
