@@ -2,14 +2,14 @@ import Image from "next/image";
 
 const AboutBanner = () => {
   return (
-    <section className="bg-black py-10 pb-12 md:py-16 xl:py-32">
-      <div className="container mx-auto section-padding-x xl:mb-20">
-        <div className="md:flex gap-8 md:gap-10 xl:gap-12">
+    <section className="bg-black py-10 section-padding-x pb-12 md:py-16 xl:py-32">
+      <div className="container mx-auto xl:mb-20 xl:px-12 xlg:px-10 hd:px-14">
+        <div className="md:flex gap-8 md:gap-10 lg:gap-20 xlg:gap-24 hd:gap-32">
           <div className="w-full md:w-2/5">
             <div className="w-full mb-8">
               <Image
-                width={460}
-                height={460}
+                width={860}
+                height={860}
                 objectFit="cover"
                 src="/assets/about/cover.png"
                 alt="just a simple pic of me sitting :)"
@@ -18,9 +18,9 @@ const AboutBanner = () => {
             </div>
           </div>
           <div className="w-full md:w-3/5">
-            <article className="md:pr-12 lg:pr-1 xl:pr-12">
+            <article className="md:pr-12 lg:pr-1">
               <p
-                className="text-white sf-medium text-md md:text-xl xxl:text-2xl mb-8 xl:mb-12"
+                className="text-white sf-medium text-md md:text-xl xl:text-1.5xl xxl:text-2xl xxlg:text-3xl hd:text-4xl mb-8 xl:mb-12"
                 style={{ lineHeight: 1.5 }}
               >
                 Hey there! I am an engineer by academic training and a product
@@ -29,7 +29,7 @@ const AboutBanner = () => {
                 impact millions of people in this connected and diverse world.
               </p>
               <p
-                className="text-white sf-medium text-md md:text-xl xxl:text-2xl"
+                className="text-white sf-medium text-md md:text-xl xl:text-1.5xl xxl:text-2xl xxlg:text-3xl hd:text-4xl"
                 style={{ lineHeight: 1.5 }}
               >
                 I am passionate about applying my ingrained creativity and

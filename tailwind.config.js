@@ -20,10 +20,12 @@ module.exports = {
       screens: {
         xxl: "1360px",
         xlg: "1440px",
+        xxlg: "1600px",
         hd: "1920px",
         xhd: "2560px",
       },
       fontSize: {
+        "1.5xl": "1.33rem",
         "2.5xl": "1.75rem",
         "3.5xl": "2rem",
         "4.5xl": "2.5rem",

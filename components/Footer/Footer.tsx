@@ -15,7 +15,7 @@ const Footer = ({ children }: any) => {
             </p>
           </div>
           <div className="md:w-2/3">
-            <ul className="flex justify-between md:justify-around">
+            <ul className="flex justify-between md:justify-around max-w-xl ml-auto">
               <li>
                 <a className="sf-medium text-xs md:text-md md:text-base text-white">
                   Email
