@@ -5,7 +5,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <Image
           src="/assets/casestudy/angel-2/1.png"
           alt=""
@@ -15,7 +15,7 @@ const Content = () => {
           height={570}
           layout="responsive"
         />
-        <div className="md:mx-12 lg:mx-20 lg:px-3 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
@@ -34,12 +34,17 @@ const Content = () => {
             content="Some users end up making bad decisions and execute impulsive trades with poor planning or rationale simply because they don’t find precise information at the right time to support their decisions. With the portfolio manager being an essential part in a trading workflow, it was important that our designs would abstract complexity and help them get through the funnel, well informed. Because the web platform caters to a unique user segment of both advanced traders and intermediate traders, the challenge was to be mindful to their different financial maturity levels."
           />
         </div>
-        <div className="md:mx-12 lg:mx-20 lg:px-3 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <Text
             content="IDEATION"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
           />
-          <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
+          <h3
+            className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue"
+            style={{
+              lineHeight: 1.25,
+            }}
+          >
             Designing around mental models
           </h3>
           <Text
@@ -124,8 +129,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
-        <div className="md:mx-12 lg:mx-20 lg:px-3">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
@@ -148,7 +153,7 @@ const Content = () => {
             content="The three main sections we decided to show upfront is open orders, open positions and holdings. Both order history and closed positions were placed under tab headings ‘open orders’ and ‘positions’ respectively, because we learned this was not an essential part of a traders workflow to be shown upfront in separate tabs."
           />
         </div>
-        <div className="md:mx-12 lg:mx-20 lg:px-3 mt-10 md:mt-16 xl:mt-24">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Details make the design
           </h3>
@@ -169,7 +174,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="md:mx-12 lg:mx-16 lg:px-3">
+        <div className="md:mx-12 lg:mx-16 lg:px-3 porfolio-content-wrapper">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/4.png"
@@ -183,8 +188,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
-        <div className="md:mx-12 lg:mx-20 lg:px-3">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Quick actions on hover
           </h3>
@@ -196,7 +201,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="md:mx-12 lg:mx-16 lg:px-3">
+        <div className="md:mx-12 lg:mx-16 lg:px-3 porfolio-content-wrapper">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/5.png"
@@ -210,8 +215,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
-        <div className="md:mx-12 lg:mx-20 lg:px-3">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Thoughtfully designed nudges
           </h3>
@@ -320,7 +325,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="md:mx-12 lg:mx-20 lg:px-3">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/8.png"
@@ -334,8 +339,8 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 2xl:px-60">
-        <div className="md:mx-12 lg:mx-20 lg:px-3">
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Summary cards
           </h3>

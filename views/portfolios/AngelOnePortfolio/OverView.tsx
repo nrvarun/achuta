@@ -3,7 +3,7 @@ import React from "react";
 
 const OverView = () => {
   return (
-    <div className="container mx-auto section-padding-x">
+    <div className="portfolio-container mx-auto">
       <div className="md:flex mt-4 md:mt-8 xl:mt-12">
         <div className="w-full md:w-2/3 md:pr-16 xl:pr-24 mb-12 md:mb-0">
           <Text

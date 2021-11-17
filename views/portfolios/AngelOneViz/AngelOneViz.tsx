@@ -3,8 +3,8 @@ import OverView from "./OverView";
 
 const AngelOneViz = () => {
   return (
-    <section className="bg-white py-8 md:py-12 xl:py-16">
-      <div className="container mx-auto section-padding-x mb-12 md:mb-0">
+    <section className="bg-white py-8 md:py-12 xl:py-16 section-padding-x">
+      <div className="portfolio-container mx-auto mb-12 md:mb-0">
         <h1 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-2">
           AngelOne
         </h1>

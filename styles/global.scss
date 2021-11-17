@@ -106,3 +106,17 @@ main {
     max-width: 1820px;
   }
 }
+
+.porfolio-container {
+  max-width: 100%;
+}
+
+.porfolio-content-wrapper {
+  max-width: 792px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+  @media (min-width: 1500px) {
+    max-width: 80%;
+  }
+}
