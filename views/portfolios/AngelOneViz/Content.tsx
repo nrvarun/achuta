@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="pt-10 mb-4 md:mb-9 md:pt-16 xl:pt-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-14">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-14 xlg:px-24">
         <Image
           src="/assets/casestudy/angel-1/1.png"
           alt=""
