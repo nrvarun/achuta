@@ -1,10 +1,11 @@
+/* eslint-disable @next/next/no-img-element */
 import Text from "@components/Text";
 import Image from "next/image";
 
 const Content = () => {
   return (
     <div className="pt-1 md:pt-3 pb-10 md:pb-16 xl:pb-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60">
         <Image
           src="/assets/casestudy/check/1.png"
           alt=""
@@ -63,10 +64,10 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 mb-6 m40 2xl:px-56mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-8">
         <div
           className="mx-auto text-center"
-          style={{ maxWidth: 1068, maxHeight: 678 }}
+          style={{ maxWidth: "100%", height: "auto" }}
         >
           <Image
             src="/assets/casestudy/check/2.png"
@@ -79,7 +80,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 xl:mx-16 2xl:mx-24 porfolio-content-wrapper">
           <Text
             style={{ lineHeight: 1.5 }}
@@ -178,10 +179,10 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 mb-6 m40 2xl:px-56mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-8">
         <div
           className="mx-auto text-center"
-          style={{ maxWidth: 1084, maxHeight: 304 }}
+          style={{ maxWidth: "100%", maxHeight: "auto" }}
         >
           <Image
             src="/assets/casestudy/check/3.png"
@@ -194,7 +195,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 xl:mx-16 2xl:mx-24 porfolio-content-wrapper mt-2 md:mt-4 xl:mt-8">
           <Text
             style={{ lineHeight: 1.5 }}
@@ -204,7 +205,7 @@ const Content = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 xl:mx-16 2xl:mx-24 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Safety and privacy
@@ -259,10 +260,7 @@ const Content = () => {
             visible on any submitted violation.
           </p>
           <div className="text-center mb-2 md:mb-4 xl:mb-8 md:-ml-12 lg:-ml-24">
-            <div
-              className="mx-auto text-center"
-              style={{ maxWidth: 416, maxHeight: 552 }}
-            >
+            <div className="mx-auto text-center max-w-lg hd:max-w-xl">
               <Image
                 src="/assets/casestudy/check/4.png"
                 alt=""
@@ -293,11 +291,8 @@ const Content = () => {
           </p>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-24 mb-6 md:mb-8">
-        <div
-          className="mx-auto text-center"
-          style={{ maxWidth: 1224, maxHeight: 448 }}
-        >
+      <div className="container mx-auto md:px-16 lg:px-24 xl:px-0 mb-6 md:mb-8">
+        <div className="mx-auto text-center h-auto">
           <Image
             src="/assets/casestudy/check/5.png"
             alt=""
@@ -309,7 +304,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 xl:mx-16 2xl:mx-24 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             Challenges motivate users
@@ -320,18 +315,14 @@ const Content = () => {
             content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competition and results in users contributing positively to build a safe environment "
           />
           <div className="text-center">
-            <div
-              className="mx-auto text-center"
-              style={{ maxWidth: 265, maxHeight: 552 }}
-            >
-              <Image
+            <div className="mx-auto text-center max-w-md hd:max-w-xl">
+              <img
                 src="/assets/casestudy/check/6.png"
                 alt=""
-                objectFit="cover"
                 className="h-auto w-full"
-                width={265}
-                height={552}
-                layout="intrinsic"
+                // width={265}
+                // height={552}
+                // layout="intrinsic"
               />
             </div>
           </div>
@@ -346,18 +337,14 @@ const Content = () => {
             content="The best games create strong emotions. When designing for games we aim to tap into nuanced explicit and implicit emotions. The following framework of the Emotion Wheel from Junto Institute explains more clearly the subtleties we have to work with. For this application our users care deeply about for the society at large which gives them a feeling joy. Our design has to be for ‘Optimism’ and ‘Hopefulness’ because our users are looking to improve their society. Our designs must also be for ‘Pride’; when a user does a service for the society which rightly gives a sense of accomplishment. "
           />
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <div
-              className="mx-auto text-center"
-              style={{ maxWidth: 528, maxHeight: 445 }}
-            >
-              <Image
+            <div className="mx-auto text-center max-w-lg hd:max-w-xl">
+              <img
                 src="/assets/casestudy/check/7.png"
                 alt=""
-                objectFit="cover"
                 className="h-auto w-full"
-                width={528}
-                height={445}
-                layout="intrinsic"
+                // width={265}
+                // height={552}
+                // layout="intrinsic"
               />
             </div>
           </div>
@@ -367,25 +354,21 @@ const Content = () => {
             content="In our application, we designed a rewards section that displays the badges and vouchers won by the user for being good citizens of the society. We carefully craft messages to convey a sense of pride and accomplishment."
           />
           <div className="text-center">
-            <div
-              className="mx-auto text-center"
-              style={{ maxWidth: 265, maxHeight: 552 }}
-            >
-              <Image
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg">
+              <img
                 src="/assets/casestudy/check/8.png"
                 alt=""
-                objectFit="cover"
                 className="h-auto w-full"
-                width={265}
-                height={552}
-                layout="intrinsic"
+                // width={265}
+                // height={552}
+                // layout="intrinsic"
               />
             </div>
           </div>
         </div>
       </div>
 
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-2 md:mb-4">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-2 md:mb-4">
         <div className="md:mx-12 xl:mx-16 2xl:mx-24 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-6xl sf-bold mb-3 md:mb-6 text-lightdarkgrey">
             A holistic experience
@@ -413,18 +396,14 @@ const Content = () => {
             flow in four easy steps.
           </p>
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <div
-              className="mx-auto text-center"
-              style={{ maxWidth: 265, maxHeight: 552 }}
-            >
-              <Image
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg">
+              <img
                 src="/assets/casestudy/check/9.png"
                 alt=""
-                objectFit="cover"
                 className="h-auto w-full"
-                width={265}
-                height={552}
-                layout="intrinsic"
+                // width={265}
+                // height={552}
+                // layout="intrinsic"
               />
             </div>
           </div>
@@ -438,9 +417,8 @@ const Content = () => {
               style={{
                 boxShadow: "0px 2px 8px rgb(90 90 90 / 20%)",
                 borderRadius: 8,
-                maxWidth: 260,
               }}
-              className="w-full h-auto mx-auto"
+              className="w-full h-auto mx-auto max-w-xs hd:max-w-lg"
               controls
               src="/assets/casestudy/check/video.mp4"
               poster="/assets/casestudy/check/video-poster.png"

@@ -5,7 +5,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-14 xlg:px-24">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-14 xlg:px-24">
         <Image
           src="/assets/casestudy/angel-2/1.png"
           alt=""
@@ -16,7 +16,7 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
@@ -134,7 +134,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <Text
             style={{ lineHeight: 1.5 }}
@@ -178,7 +178,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-2 mb-12 md:mb-24">
+      <div className="container mx-auto md:px-2 mb-12 md:mb-24">
         <div className="md:mx-4 xl:mx-2 xl:px-3">
           <div className="mb-4 md:mb-8">
             <Image
@@ -193,7 +193,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Quick actions on hover
@@ -205,7 +205,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 xl:px-0 mb-12 md:mb-24">
+      <div className="container mx-auto md:px-16 xl:px-0 mb-12 md:mb-24">
         <div className="md:mx-12 lg:mx-4 lg:px-3">
           <div className="mb-4 md:mb-8">
             <Image
@@ -220,7 +220,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Thoughtfully designed nudges
@@ -329,7 +329,7 @@ const Content = () => {
           </ol>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 xl:px-4 mb-12 md:mb-24">
+      <div className="container mx-auto md:px-16 xl:px-4 mb-12 md:mb-24">
         <div className="md:mx-12 lg:mx-20 lg:px-3 xl:mx-4">
           <div className="mb-4 md:mb-8">
             <Image
@@ -344,7 +344,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-meddarkblue">
             Summary cards
@@ -357,7 +357,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 xl:px-0 mt-12 md:mt-24">
+      <div className="container mx-auto md:px-16 xl:px-0 mt-12 md:mt-24">
         <div className="md:mx-12 lg:mx-16 lg:px-3 xl:mx-0">
           <div className="mb-4 md:mb-2">
             <Image

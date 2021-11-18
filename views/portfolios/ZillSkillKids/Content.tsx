@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="pt-3 pb-10 md:pb-16 xl:pb-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60">
         <Image
           src="/assets/casestudy/zillskill/1.png"
           alt=""
@@ -78,8 +78,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-32 mb-6 md:mb-8">
-        <div className="mx-11">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
+        <div className="mx-4">
           <Image
             src="/assets/casestudy/zillskill/2.png"
             alt=""
@@ -91,7 +91,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 porfolio-content-wrapper lg:mx-20 xl:mx-24">
           <Text
             style={{ lineHeight: 1.5 }}
@@ -172,8 +172,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-32 mb-6 md:mb-8">
-        <div className="mx-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
+        <div className="mx-8 xl:mx-0">
           <Image
             src="/assets/casestudy/zillskill/3.png"
             alt=""
@@ -185,7 +185,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 porfolio-content-wrapper lg:mx-20 xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
             Finding feature spaces
@@ -202,10 +202,10 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-32 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
         <div
-          className="mx-7 text-center"
-          style={{ maxWidth: 1068, maxHeight: 685 }}
+          className="mx-7 xl:mx-0 text-center"
+          style={{ maxWidth: "100%", height: "auto" }}
         >
           <Image
             src="/assets/casestudy/zillskill/4.png"
@@ -218,7 +218,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 porfolio-content-wrapper lg:mx-20 xl:mx-24">
           <Text
             style={{ lineHeight: 1.5 }}
@@ -226,10 +226,7 @@ const Content = () => {
             content="After laying out a bunch of ideas, I began to iterate with some quick and dirty sketches, just a way to put down my thoughts in a more visual form."
           />
         </div>
-        <div
-          className="mx-auto text-center"
-          style={{ maxWidth: 812, maxHeight: 407 }}
-        >
+        <div className="mx-auto text-center porfolio-content-wrapper">
           <Image
             src="/assets/casestudy/zillskill/5.png"
             alt=""
@@ -241,7 +238,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-8">
         <div className="md:mx-12 porfolio-content-wrapper lg:mx-20 xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
             Building for emotions
@@ -263,10 +260,10 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-32 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
         <div
           className="mx-auto text-center"
-          style={{ maxWidth: 1020, maxHeight: 540 }}
+          style={{ maxWidth: "100%", height: "auto" }}
         >
           <Image
             src="/assets/casestudy/zillskill/6.png"
@@ -279,7 +276,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-2">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60 mb-6 md:mb-2">
         <div className="md:mx-12 porfolio-content-wrapper lg:mx-20 xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-darkblue">
             Bold graphics with vibrant colors
@@ -291,7 +288,7 @@ const Content = () => {
           />
           <div
             className="mx-auto text-center"
-            style={{ maxWidth: 636, maxHeight: 443 }}
+            style={{ maxWidth: "90%", height: "auto" }}
           >
             <Image
               src="/assets/casestudy/zillskill/7.png"
@@ -315,7 +312,7 @@ const Content = () => {
           />
           <div
             className="mx-auto text-center"
-            style={{ maxWidth: 636, maxHeight: 443 }}
+            style={{ maxWidth: "90%", height: "auto" }}
           >
             <Image
               src="/assets/casestudy/zillskill/8.png"
@@ -337,10 +334,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="As kids we learn a lot through modelling. Role models help shape how they behave in school, relationships, or when making difficult decisions. So we introduced and matched well-known and accomplished personalities to reinforce their skill."
           />
-          <div
-            className="mx-auto text-center"
-            style={{ maxWidth: 256, maxHeight: 443 }}
-          >
+          <div className="mx-auto text-center max-w-sm hd:max-w-lg">
             <Image
               src="/assets/casestudy/zillskill/9.png"
               alt=""
@@ -361,10 +355,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="In the world of social media, allowing kids to share their ZAP badges was both a clever user growth tactic and a way for the kids to trumpet their skills!"
           />
-          <div
-            className="mx-auto text-center"
-            style={{ maxWidth: 256, maxHeight: 443 }}
-          >
+          <div className="mx-auto text-center max-w-sm hd:max-w-lg">
             <Image
               src="/assets/casestudy/zillskill/10.png"
               alt=""
