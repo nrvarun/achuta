@@ -5,7 +5,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="py-10 md:py-16 xl:py-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-14 xlg:px-24">
         <Image
           src="/assets/casestudy/angel-2/1.png"
           alt=""
@@ -15,6 +15,8 @@ const Content = () => {
           height={570}
           layout="responsive"
         />
+      </div>
+      <div className="container mx-auto px-8 md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
@@ -119,13 +121,16 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-40 mb-6 md:mb-8">
-        <div className="md:mx-7">
-          <img
+      <div className="container mx-auto px-16 md:px-16 mb-6 md:mb-8">
+        <div className="md:mx-1">
+          <Image
             src="/assets/casestudy/angel-2/2.png"
             alt=""
-            style={{ maxWidth: 1068, maxHeight: 495 }}
+            objectFit="cover"
             className="h-auto w-full"
+            width={1068}
+            height={495}
+            layout="responsive"
           />
         </div>
       </div>
@@ -173,8 +178,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="md:mx-12 lg:mx-16 lg:px-3 porfolio-content-wrapper">
+      <div className="container mx-auto px-8 md:px-2 mb-12 md:mb-24">
+        <div className="md:mx-4 xl:mx-2 xl:px-3">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/4.png"
@@ -200,8 +205,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="md:mx-12 lg:mx-16 lg:px-3 porfolio-content-wrapper">
+      <div className="container mx-auto px-8 md:px-16 xl:px-0 mb-12 md:mb-24">
+        <div className="md:mx-12 lg:mx-4 lg:px-3">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/5.png"
@@ -247,8 +252,8 @@ const Content = () => {
               </div>
               <div className="my-4 md:my-8">
                 <div
-                  className="text-center m-auto"
-                  style={{ maxWidth: 565, maxHeight: 324 }}
+                  className="text-center m-auto px-12"
+                  style={{ maxWidth: "100%", height: "auto" }}
                 >
                   <Image
                     src="/assets/casestudy/angel-2/6.png"
@@ -281,8 +286,8 @@ const Content = () => {
               </div>
               <div className="my-4 md:my-8">
                 <div
-                  className="text-center m-auto"
-                  style={{ maxWidth: 565, maxHeight: 324 }}
+                  className="text-center m-auto px-12"
+                  style={{ maxWidth: "100%", height: "auto" }}
                 >
                   <Image
                     src="/assets/casestudy/angel-2/7.png"
@@ -324,8 +329,8 @@ const Content = () => {
           </ol>
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 mb-12 md:mb-24">
-        <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper">
+      <div className="container mx-auto px-8 md:px-16 xl:px-4 mb-12 md:mb-24">
+        <div className="md:mx-12 lg:mx-20 lg:px-3 xl:mx-4">
           <div className="mb-4 md:mb-8">
             <Image
               src="/assets/casestudy/angel-2/8.png"
@@ -352,8 +357,8 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-8 md:px-16 mt-12 md:mt-24">
-        <div className="md:mx-12 lg:mx-16 lg:px-3">
+      <div className="container mx-auto px-8 md:px-16 xl:px-0 mt-12 md:mt-24">
+        <div className="md:mx-12 lg:mx-16 lg:px-3 xl:mx-0">
           <div className="mb-4 md:mb-2">
             <Image
               src="/assets/casestudy/angel-2/9.png"
