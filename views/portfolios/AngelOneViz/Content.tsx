@@ -4,7 +4,7 @@ import Image from "next/image";
 const Content = () => {
   return (
     <div className="pt-10 mb-4 md:mb-9 md:pt-16 xl:pt-24">
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-14">
         <Image
           src="/assets/casestudy/angel-1/1.png"
           alt=""
@@ -14,6 +14,8 @@ const Content = () => {
           height={536}
           layout="responsive"
         />
+      </div>
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xl:px-36 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 xl:mx-16 xlg:mx-32 porfolio-content-wrapper 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
@@ -313,7 +315,7 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto px-8 md:px-16 lg:px-32 2xl:px-60">
+      <div className="container mx-auto px-8 md:px-16 lg:px-32 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 xl:mx-16 xlg:mx-32 porfolio-content-wrapper 2xl:mx-24 mt-10 md:mt-16 xl:mt-24">
           <h3 className="text-xl md:text-2xl xl:text-3.5xl sf-bold mb-3 md:mb-6 text-gold">
             Universal search bar
