@@ -12,7 +12,7 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
         isScrolling ? "fixed" : "static"
       } top-0 left-0 right-0 z-10`}
     >
-      <div className="container m-auto content-center grid grid-cols-2">
+      <div className="container m-auto content-center grid grid-cols-2 max-w-screen-hd">
         <div className="content-center flex">
           <Link href="/">
             <a className="no-underline">

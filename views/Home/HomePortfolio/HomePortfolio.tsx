@@ -34,16 +34,16 @@ const HomePortfolio = () => {
             </Link>
           </div>
           <div>
-            <Link href="/zillskill" passHref>
+            <Link href="/check" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
-                <Portfolio title="" desc="" image="/assets/portfolio/4.png" />
+                <Portfolio title="" desc="" image="/assets/portfolio/5.png" />
               </a>
             </Link>
           </div>
           <div>
-            <Link href="/check" passHref>
+            <Link href="/zillskill" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
-                <Portfolio title="" desc="" image="/assets/portfolio/5.png" />
+                <Portfolio title="" desc="" image="/assets/portfolio/4.png" />
               </a>
             </Link>
           </div>

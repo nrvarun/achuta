@@ -9,6 +9,7 @@ module.exports = {
       "sf-semibold",
       "section-padding-x",
       "text-subtitle",
+      "portfolio-container",
     ],
   },
   corePlugins: {

@@ -19,7 +19,10 @@ const Content = () => {
             content="PROBLEM"
             classes="text-gray-500 mb-2 md:mb-4 xl:mb-6 sf-bold"
           />
-          <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
+          <h3
+            className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue"
+            style={{ lineHeight: 1.25 }}
+          >
             Kids want to learn. Differently.
           </h3>
           <Text
@@ -162,7 +165,10 @@ const Content = () => {
           </ol>
         </div>
         <div className="md:mx-12 porfolio-content-wrapper lg:mx-20 xl:mx-24 mt-10 md:mt-16 xl:mt-24">
-          <h3 className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue">
+          <h3
+            className="text-3xl md:text-4xl xl:text-5.5xl 2xl:text-6xl sf-bold mb-3 md:mb-6 text-darkblue"
+            style={{ lineHeight: 1.25 }}
+          >
             The recommendation system
           </h3>
           <Text
