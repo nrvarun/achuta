@@ -3,21 +3,21 @@ import Image from "next/image";
 const AboutBanner = () => {
   return (
     <section className="bg-black py-10 section-padding-x pb-12 md:py-16 xl:py-32">
-      <div className="container mx-auto xl:mb-20 xl:px-12 xlg:px-10 hd:px-14">
-        <div className="md:flex gap-8 md:gap-10 lg:gap-20 xlg:gap-24 hd:gap-32">
-          <div className="w-full md:w-2/5">
-            <div className="w-full mb-8">
-              <Image
-                width={860}
-                height={860}
-                objectFit="cover"
+      <div className="container mx-auto xl:mb-20">
+        <div className="md:flex gap-8 md:gap-10 lg:gap-20 xlg:gap-24 hd:gap-24">
+          <div className="w-full md:w-2/5 hd:1/5">
+            <div className="w-full mb-8 hd:pb-10">
+              <img
+                // width={860}
+                // height={860}
+                // objectFit="cover"
                 src="/assets/about/cover.png"
                 alt="just a simple pic of me sitting :)"
                 className="h-auto w-full rounded-lg"
               />
             </div>
           </div>
-          <div className="w-full md:w-3/5">
+          <div className="w-full md:w-3/5 hd:4/5">
             <article className="md:pr-12 lg:pr-1">
               <p
                 className="text-white sf-medium text-md md:text-xl xl:text-1.5xl xxl:text-2xl xxlg:text-3xl hd:text-4xl mb-8 xl:mb-12"

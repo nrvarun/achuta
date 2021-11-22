@@ -42,9 +42,12 @@ const AngelOneVisualHierarchy: NextPage = () => {
                   </div>
                 </div>
                 <div className="ml-4 md:ml-6">
-                  <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mb-1 md:mb-3">
-                    Grab
-                  </h4>
+                  <div className="flex items-center mb-1 md:mb-3">
+                    <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mr-2">
+                      Grab
+                    </h4>
+                    <img src="/icons/lock.svg" alt="" className="" />
+                  </div>
                   <p className="text-white text-xs md:text-base xl:text-md sf-bold">
                     Ads and personalization tech
                   </p>

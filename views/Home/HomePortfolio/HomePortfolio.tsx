@@ -5,7 +5,7 @@ import Portfolio from "@components/Portfolio";
 const HomePortfolio = () => {
   return (
     <section className="bg-black px-8 xl:px-0">
-      <div className="container mx-auto pb-20 md:pb-40 xl:pb-56 xl:px-7 xlg:px-2 hd:px-14">
+      <div className="container mx-auto pb-20 md:pb-40 xl:pb-56 xl:px-16 xxl:px-7 xlg:px-11 hd:px-14">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-24 xl:gap-28 xl:mb-3">
           <div>
             <Link href="/" passHref>

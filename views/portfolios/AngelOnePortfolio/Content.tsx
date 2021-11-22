@@ -16,7 +16,7 @@ const Content = () => {
           layout="responsive"
         />
       </div>
-      <div className="container mx-auto md:px-16 lg:px-28 xl:px-36 xlg:px-24 2xl:px-60">
+      <div className="container mx-auto md:px-16 lg:px-28 xl:px-28 xlg:px-24 2xl:px-60">
         <div className="md:mx-12 lg:mx-20 lg:px-3 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
           <Text
             content="PROBLEM"
@@ -85,7 +85,7 @@ const Content = () => {
                   className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
-                  <span className="sf-bold">passive traders</span> who invest by
+                  <span className="sf-bold">Passive traders</span> who invest by
                   mimicking the trends of an index with the hope of growing
                   wealth over the long run.
                 </p>
@@ -352,12 +352,12 @@ const Content = () => {
 
           <Text
             style={{ lineHeight: 1.5 }}
-            classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
+            classes="mb-4 md:mb-8 xl:mb-8 xl:text-2xl"
             content="Summary cards in very important in a complex environment like a financial trading system. More often than not, it acts as a starting point for users attention. If they see something off base in the summary card they then know that that section needs attention. Keeping this in mind I designed bold and attractive contextual digests of information, across different sections of the portfolio management."
           />
         </div>
       </div>
-      <div className="container mx-auto md:px-16 xl:px-0 mt-12 md:mt-24">
+      <div className="container mx-auto md:px-16 xl:px-0 mt-8">
         <div className="md:mx-12 lg:mx-16 lg:px-3 xl:mx-0">
           <div className="mb-4 md:mb-2">
             <Image

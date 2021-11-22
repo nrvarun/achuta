@@ -5,7 +5,7 @@ const AngelOnePortfolio = () => {
   return (
     <section className="bg-white pt-8 md:pt-12 xl:pt-16 section-padding-x">
       <div className="portfolio-container mx-auto mb-12 md:mb-0">
-        <h1 className="text-3xl md:text-4xl xl:text-6.5xl sf-bold mb-2">
+        <h1 className="text-3xl md:text-4xl xl:text-6.5xl sf-bold mb-3">
           AngelOne
         </h1>
         <h2

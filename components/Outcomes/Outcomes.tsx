@@ -11,7 +11,7 @@ const Outcomes = ({ title, list, color, backgroundColor }: OutcomesType) => {
   return (
     <section className="p-12 md:p-16 xl:p-24" style={{ backgroundColor }}>
       <div className="container mx-auto">
-        <div className="max-w-7xl mx-auto">
+        <div className="mx-auto">
           <h3
             className="text-2xl md:text-3xl xl:text-6xl sf-bold text-black mb-4 md:mb-8 xl:mb-12"
             style={{ color }}

@@ -17,9 +17,9 @@ const Check: NextPage = () => {
         color="#464646"
         backgroundColor="#D3D3D3"
         list={[
-          "Provided tangible and result oriented assessment for kids",
-          "Enabled a visually vibrant experience for kids to discover inner passions",
-          "Enhanced user engagement avenues by studying kids psychology",
+          "Built a community driven hyperlocal traffic enforcement app.",
+          "Faster and effective violation detections through a state of the art neural engine.",
+          "Significant enhancement to the UX by intrinsically motivating users.",
         ]}
       />
       <Footer>

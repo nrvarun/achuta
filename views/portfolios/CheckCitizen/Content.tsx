@@ -119,7 +119,7 @@ const Content = () => {
                   className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
-                  challenges
+                  Challenges
                 </p>
               </div>
             </li>
@@ -134,7 +134,7 @@ const Content = () => {
                   className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
-                  emotions
+                  Emotions
                 </p>
               </div>
             </li>
@@ -149,7 +149,7 @@ const Content = () => {
                   className={`text-md md:text-xl text-black sf-regular xl:text-2xl`}
                   style={{ lineHeight: 1.5 }}
                 >
-                  flows
+                  Flows
                 </p>
               </div>
             </li>
@@ -251,11 +251,11 @@ const Content = () => {
             </li>
           </ol>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-regular xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             For the first usecase we came up with the idea of having users enter
-            a<span className="sf-bold">unique pseudonym</span>
+            a<span className="sf-bold mx-1">unique pseudonym</span>
             as an identifier. Their real identity is encrypted and will never be
             visible on any submitted violation.
           </p>
@@ -273,7 +273,7 @@ const Content = () => {
             </div>
           </div>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-regular xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             To solve the second usecase, we introduced a feature that diables
@@ -374,7 +374,7 @@ const Content = () => {
             A holistic experience
           </h3>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-4 md:mb-8 xl:mb-12`}
+            className={`text-md md:text-xl text-black sf-regular xl:text-2xl mb-4 md:mb-8 xl:mb-12`}
             style={{ lineHeight: 1.5 }}
           >
             The three previous factors are vital components to our game design
@@ -386,7 +386,7 @@ const Content = () => {
             the task becomes intrinsically motivating.
           </p>
           <p
-            className={`text-md md:text-xl text-black sf-medium xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
+            className={`text-md md:text-xl text-black sf-regular xl:text-2xl mb-2 md:mb-4 xl:mb-8`}
             style={{ lineHeight: 1.5 }}
           >
             A vital condition to maintain good flow is ‘knowing what to do next
