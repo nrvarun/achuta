@@ -5,7 +5,7 @@ const AngelOneViz = () => {
   return (
     <section className="bg-white py-8 md:py-12 xl:py-16 section-padding-x">
       <div className="portfolio-container mx-auto mb-12 md:mb-0">
-        <h1 className="text-3xl md:text-4xl lg:text-4.75xl xl:text-6.5xl sf-bold mb-3">
+        <h1 className="text-3xl md:text-4xl lg:text-4.75xl xl:text-6.5xl sf-bold mb-3 md:mb-4">
           AngelOne
         </h1>
         <h2
