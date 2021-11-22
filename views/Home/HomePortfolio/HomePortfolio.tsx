@@ -8,42 +8,54 @@ const HomePortfolio = () => {
       <div className="container mx-auto pb-20 md:pb-40 xl:pb-56 xl:px-16 xxl:px-7 xlg:px-11 xxlg:px-2 hd:px-14">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-24 xl:gap-28 xl:mb-3">
           <div>
-            <Link href="/" passHref>
-              <a className="block cursor-default">
-                <Portfolio
-                  title=""
-                  desc=""
-                  image="/assets/portfolio/1.png"
-                  locked
-                />
-              </a>
-            </Link>
+            <Portfolio
+              title="grab"
+              desc="grab"
+              image="/assets/portfolio/1.png"
+              locked
+            />
           </div>
           <div>
             <Link href="/angelone-viz" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
-                <Portfolio title="" desc="" image="/assets/portfolio/2.png" />
+                <Portfolio
+                  title="angelone-viz"
+                  desc="angelone-viz"
+                  image="/assets/portfolio/2.png"
+                />
               </a>
             </Link>
           </div>
           <div>
             <Link href="/angelone-web-portfolio" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
-                <Portfolio title="" desc="" image="/assets/portfolio/3.png" />
+                <Portfolio
+                  title="angelone-web-portfolio"
+                  desc="angelone-web-portfolio"
+                  image="/assets/portfolio/3.png"
+                />
               </a>
             </Link>
           </div>
           <div>
             <Link href="/check" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
-                <Portfolio title="" desc="" image="/assets/portfolio/5.png" />
+                <Portfolio
+                  title="check"
+                  desc="check"
+                  image="/assets/portfolio/5.png"
+                />
               </a>
             </Link>
           </div>
           <div>
             <Link href="/zillskill" passHref>
               <a className="block transform transition duration-500 hover:scale-105">
-                <Portfolio title="" desc="" image="/assets/portfolio/4.png" />
+                <Portfolio
+                  title="zillskill"
+                  desc="zillskill"
+                  image="/assets/portfolio/4.png"
+                />
               </a>
             </Link>
           </div>
