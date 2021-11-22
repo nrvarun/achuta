@@ -40,7 +40,7 @@ const Check: NextPage = () => {
                     </div>
                   </div>
                   <div className="ml-4 md:ml-6">
-                    <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mb-2 md:mb-3">
+                    <h4 className="text-white text-base sf-bold md:text-xl lg:text-2xl xl:text-3.5xl mb-2 md:mb-3">
                       ZILLSKILL
                     </h4>
                     <p className="text-white text-xs  md:text-base xl:text-md sf-bold">

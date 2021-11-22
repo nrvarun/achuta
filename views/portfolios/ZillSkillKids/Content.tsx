@@ -204,7 +204,7 @@ const Content = () => {
       </div>
       <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
         <div
-          className="mx-7 xl:mx-0 text-center"
+          className="mx-0 text-center"
           style={{ maxWidth: "100%", height: "auto" }}
         >
           <Image
@@ -334,7 +334,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="As kids we learn a lot through modelling. Role models help shape how they behave in school, relationships, or when making difficult decisions. So we introduced and matched well-known and accomplished personalities to reinforce their skill."
           />
-          <div className="mx-auto text-center max-w-sm hd:max-w-lg">
+          <div className="mx-auto text-center max-w-sm hd:max-w-lg px-20 md:px-0">
             <Image
               src="/assets/casestudy/zillskill/9.png"
               alt=""
@@ -355,7 +355,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="In the world of social media, allowing kids to share their ZAP badges was both a clever user growth tactic and a way for the kids to trumpet their skills!"
           />
-          <div className="mx-auto text-center max-w-sm hd:max-w-lg">
+          <div className="mx-auto text-center max-w-sm hd:max-w-lg px-20 md:px-0">
             <Image
               src="/assets/casestudy/zillskill/10.png"
               alt=""

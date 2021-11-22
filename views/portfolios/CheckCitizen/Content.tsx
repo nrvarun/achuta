@@ -315,7 +315,7 @@ const Content = () => {
             content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competition and results in users contributing positively to build a safe environment "
           />
           <div className="text-center">
-            <div className="mx-auto text-center max-w-md hd:max-w-xl">
+            <div className="mx-auto text-center max-w-md hd:max-w-xl px-20 md:px-0">
               <img
                 src="/assets/casestudy/check/6.png"
                 alt=""
@@ -337,7 +337,7 @@ const Content = () => {
             content="The best games create strong emotions. When designing for games we aim to tap into nuanced explicit and implicit emotions. The following framework of the Emotion Wheel from Junto Institute explains more clearly the subtleties we have to work with. For this application our users care deeply about for the society at large which gives them a feeling joy. Our design has to be for ‘Optimism’ and ‘Hopefulness’ because our users are looking to improve their society. Our designs must also be for ‘Pride’; when a user does a service for the society which rightly gives a sense of accomplishment. "
           />
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <div className="mx-auto text-center max-w-lg hd:max-w-xl">
+            <div className="mx-auto text-center max-w-lg hd:max-w-xl px-14 md:px-0">
               <img
                 src="/assets/casestudy/check/7.png"
                 alt=""
@@ -354,7 +354,7 @@ const Content = () => {
             content="In our application, we designed a rewards section that displays the badges and vouchers won by the user for being good citizens of the society. We carefully craft messages to convey a sense of pride and accomplishment."
           />
           <div className="text-center">
-            <div className="mx-auto text-center max-w-xs hd:max-w-lg">
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
               <img
                 src="/assets/casestudy/check/8.png"
                 alt=""
@@ -396,7 +396,7 @@ const Content = () => {
             flow in four easy steps.
           </p>
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <div className="mx-auto text-center max-w-xs hd:max-w-lg">
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
               <img
                 src="/assets/casestudy/check/9.png"
                 alt=""
@@ -412,7 +412,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="The application was mindfully designed to be extremely lightweight with just three sections: a profile page; rewards; and settings. This makes navigation through the application incredibly easy with minimum effort."
           />
-          <div className="text-center">
+          <div className="text-center px-20 md:px-0">
             <video
               style={{
                 boxShadow: "0px 2px 8px rgb(90 90 90 / 20%)",

@@ -9,7 +9,10 @@ type OutcomesType = {
 
 const Outcomes = ({ title, list, color, backgroundColor }: OutcomesType) => {
   return (
-    <section className="p-12 md:p-16 xl:p-24" style={{ backgroundColor }}>
+    <section
+      className="p-8 md:p-16 lg:px-20 xl:p-24"
+      style={{ backgroundColor }}
+    >
       <div className="container mx-auto">
         <div className="mx-auto">
           <h3

@@ -121,7 +121,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto px-16 md:px-16 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 mb-6 md:mb-8">
         <div className="md:mx-1">
           <Image
             src="/assets/casestudy/angel-2/2.png"

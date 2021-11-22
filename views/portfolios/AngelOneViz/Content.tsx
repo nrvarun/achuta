@@ -280,7 +280,7 @@ const Content = () => {
             content="The watchlist was built to support a lot of customizations. Many users requested to see the trends of market indexes at all times which let them gauge the overall conditions of the market. So we let users customize their watchlist view by allowing them to have any two indexes placed on top. Another feature that users wanted was the ability to quickly edit, create and navigate between watchlists."
           />
         </div>
-        <div className="mb-2 mx-10">
+        <div className="mb-2 md:mx-10">
           <Image
             src="/assets/casestudy/angel-1/4.png"
             alt=""

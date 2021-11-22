@@ -43,10 +43,14 @@ const AngelOneVisualHierarchy: NextPage = () => {
                 </div>
                 <div className="ml-4 md:ml-6">
                   <div className="flex items-center mb-1 md:mb-3">
-                    <h4 className="text-white text-base sf-bold md:text-md xl:text-3.5xl mr-2">
+                    <h4 className="text-white text-base sf-bold md:text-xl lg:text-2xl xl:text-3.5xl mr-2">
                       Grab
                     </h4>
-                    <img src="/icons/lock.svg" alt="" className="" />
+                    <img
+                      src="/icons/lock.svg"
+                      alt=""
+                      className="w-3 md:w-auto"
+                    />
                   </div>
                   <p className="text-white text-xs md:text-base xl:text-md sf-bold">
                     Ads and personalization tech
@@ -58,7 +62,7 @@ const AngelOneVisualHierarchy: NextPage = () => {
               <Link href="/angelone-web-portfolio">
                 <a className="flex">
                   <div className="mr-4 md:mr-6 ml-auto">
-                    <h4 className="text-white text-base md:text-md xl:text-3.5xl mb-1 md:mb-3 sf-bold">
+                    <h4 className="text-white text-base md:text-xl lg:text-2xl xl:text-3.5xl mb-1 md:mb-3 sf-bold">
                       AngelOne
                     </h4>
                     <p className="text-white text-xs md:text-base xl:text-md sf-bold">
