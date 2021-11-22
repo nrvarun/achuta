@@ -340,7 +340,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="As kids we learn a lot through modelling. Role models help shape how they behave in school, relationships, or when making difficult decisions. So we introduced and matched well-known and accomplished personalities to reinforce their skill."
           />
-          <div className="mx-auto text-center max-w-sm hd:max-w-lg px-20 md:px-0">
+          <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
             <Image
               src="/assets/casestudy/zillskill/9.png"
               alt=""
@@ -361,7 +361,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="In the world of social media, allowing kids to share their ZAP badges was both a clever user growth tactic and a way for the kids to trumpet their skills!"
           />
-          <div className="mx-auto text-center max-w-sm hd:max-w-lg px-20 md:px-0">
+          <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
             <Image
               src="/assets/casestudy/zillskill/10.png"
               alt=""

@@ -315,7 +315,7 @@ const Content = () => {
             content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competition and results in users contributing positively to build a safe environment "
           />
           <div className="text-center">
-            <div className="mx-auto text-center max-w-md hd:max-w-xl px-20 md:px-0">
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
               <img
                 src="/assets/casestudy/check/6.png"
                 alt=""
