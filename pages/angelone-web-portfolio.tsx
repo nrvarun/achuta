@@ -54,14 +54,14 @@ const AngelOneWebPorfolio: NextPage = () => {
               </Link>
             </div>
             <div className="w-1/2 text-right">
-              <Link href="/zillskill">
+              <Link href="/check">
                 <a className="flex">
                   <div className="mr-4 md:mr-6 ml-auto">
                     <h4 className="text-white text-base md:text-xl lg:text-2xl xl:text-3.5xl mb-1 md:mb-3 sf-bold">
-                      ZILLSKILL
+                      Check
                     </h4>
                     <p className="text-white text-xs  md:text-base xl:text-md sf-bold">
-                      A learning community for kids
+                      A citizen-driven violation reporting app
                     </p>
                   </div>
                   <div className="flex">
