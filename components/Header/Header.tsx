@@ -75,17 +75,16 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
                 transition={{ duration: 0.7 }}
                 className="mr-0"
               >
-                <Link href="/">
-                  <a
-                    className={`text-sm md:text-xl xl:text-2xl sf-medium capitalize ${
-                      router.pathname === "/resume"
-                        ? "text-white"
-                        : "text-gray-400"
-                    }`}
-                  >
-                    resume
-                  </a>
-                </Link>
+                <a
+                  href="/Resume.pdf"
+                  className={`text-sm md:text-xl xl:text-2xl sf-medium capitalize ${
+                    router.pathname === "/resume"
+                      ? "text-white"
+                      : "text-gray-400"
+                  }`}
+                >
+                  resume
+                </a>
               </motion.li>
             </ul>
           </nav>
