@@ -252,7 +252,7 @@ const Content = () => {
               </div>
               <div className="my-4 md:my-8">
                 <div
-                  className="text-center m-auto px-12"
+                  className="text-center m-auto px-12 xlg:px-2 xlg:mx-24"
                   style={{ maxWidth: "100%", height: "auto" }}
                 >
                   <Image
@@ -286,7 +286,7 @@ const Content = () => {
               </div>
               <div className="my-4 md:my-8">
                 <div
-                  className="text-center m-auto px-12"
+                  className="text-center m-auto px-12 xlg:px-2 xlg:mx-24"
                   style={{ maxWidth: "100%", height: "auto" }}
                 >
                   <Image
@@ -358,7 +358,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto md:px-16 xl:px-0 mt-8">
-        <div className="md:mx-12 lg:mx-16 lg:px-3 xl:mx-0">
+        <div className="md:mx-12 lg:mx-16 lg:px-4 xlg:mx-4">
           <div className="mb-4 md:mb-2">
             <Image
               src="/assets/casestudy/angel-2/9.png"

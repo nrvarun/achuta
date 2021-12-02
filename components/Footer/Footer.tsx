@@ -16,10 +16,10 @@ const Footer = ({ children }: any) => {
               <img
                 src="/icons/copyright.png"
                 alt="copyright"
-                className="w-6 h-auto mr-1"
+                className="w-6 md:w-4 h-auto mr-1"
               />
               <p
-                className="text-md md:text-base sf-bold"
+                className="text-sm md:text-base sf-bold"
                 style={{ color: "#999999" }}
               >
                 2021 Achuta Anekal

@@ -304,7 +304,7 @@ const Content = () => {
           </div>
         </div>
       </div>
-      <div className="container mx-auto md:px-16 xl:px-36 mb-2">
+      <div className="container mx-auto md:px-16 xl:px-36 xlg:px-8 mb-2">
         <Image
           src="/assets/casestudy/angel-1/5.png"
           alt=""
@@ -326,7 +326,7 @@ const Content = () => {
             content="Positioning the search bar was critical because in a stock trading app, there are a lot of complex types of securities one can access especially when a user searches for futures and options. Having a large search box on top of the page with filters helped create a clear distinction between each search result."
           />
 
-          <div className="mx-4">
+          <div className="mx-4 xlg:mx-10">
             <Image
               src="/assets/casestudy/angel-1/6.png"
               alt=""

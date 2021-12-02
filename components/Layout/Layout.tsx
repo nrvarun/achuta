@@ -1,6 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import Header from "@components/Header";
+import { motion } from "framer-motion";
 
 const Layout = ({ children, title, hasScroll }: any) => {
   return (
@@ -32,9 +33,17 @@ const Layout = ({ children, title, hasScroll }: any) => {
         />
         <title>{title}</title>
       </Head>
-      <div>
+      <div className="bg-black">
         <Header isScrolling={hasScroll} />
-        <main className={`${!hasScroll ? "mt-0" : ""}`}>{children}</main>
+        <motion.main
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className={`${!hasScroll ? "mt-0" : ""}`}
+        >
+          {children}
+        </motion.main>
       </div>
     </>
   );

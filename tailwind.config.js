@@ -35,6 +35,9 @@ module.exports = {
         "5.5xl": "3.5rem",
         "6.5xl": "4rem",
       },
+      maxWidth: {
+        xxs: "16rem",
+      },
       textColor: {
         gold: "#B8997B",
         meddarkblue: "#52679A",

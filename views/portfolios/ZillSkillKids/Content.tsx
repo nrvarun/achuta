@@ -82,7 +82,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
-        <div className="mx-4">
+        <div className="mx-4 xlg:mx-24">
           <Image
             src="/assets/casestudy/zillskill/2.png"
             alt=""
@@ -179,7 +179,7 @@ const Content = () => {
         </div>
       </div>
       <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
-        <div className="mx-8 xl:mx-0">
+        <div className="mx-8 xl:mx-0 xlg:mx-20">
           <Image
             src="/assets/casestudy/zillskill/3.png"
             alt=""
@@ -210,7 +210,7 @@ const Content = () => {
       </div>
       <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
         <div
-          className="mx-0 text-center"
+          className="mx-0 text-center xlg:mx-20"
           style={{ maxWidth: "100%", height: "auto" }}
         >
           <Image
@@ -266,7 +266,7 @@ const Content = () => {
           />
         </div>
       </div>
-      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8">
+      <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-6 md:mb-8 xlg:px-24">
         <div
           className="mx-auto text-center"
           style={{ maxWidth: "100%", height: "auto" }}
@@ -293,7 +293,7 @@ const Content = () => {
             content="From stars to black holes, exploring the solar system to imagining they are astronauts, kids develop a special curiosity for space exploration. So we designed fun and exciting illustrations of spaceships, planets and stars.  Kids also generally have a high tolerance for broader colour palettes so we used bright and vibrant colours bringing energy into the designs."
           />
           <div
-            className="mx-auto text-center"
+            className="mx-auto text-center xlg:px-12"
             style={{ maxWidth: "90%", height: "auto" }}
           >
             <Image
@@ -317,7 +317,7 @@ const Content = () => {
             content="Strong emotions are the foundations of our memory. Using powerful vocabulary to describe the personality of the kids helps keep them motivated and instills a sense of      happiness and pride."
           />
           <div
-            className="mx-auto text-center"
+            className="mx-auto text-center xlg:px-12"
             style={{ maxWidth: "90%", height: "auto" }}
           >
             <Image
@@ -340,7 +340,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="As kids we learn a lot through modelling. Role models help shape how they behave in school, relationships, or when making difficult decisions. So we introduced and matched well-known and accomplished personalities to reinforce their skill."
           />
-          <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
+          <div className="mx-auto text-center max-w-xxs hd:max-w-lg px-20 md:px-0">
             <Image
               src="/assets/casestudy/zillskill/9.png"
               alt=""
@@ -361,7 +361,7 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="In the world of social media, allowing kids to share their ZAP badges was both a clever user growth tactic and a way for the kids to trumpet their skills!"
           />
-          <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
+          <div className="mx-auto text-center max-w-xxs hd:max-w-lg px-20 md:px-0">
             <Image
               src="/assets/casestudy/zillskill/10.png"
               alt=""

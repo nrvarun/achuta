@@ -66,7 +66,7 @@ const Content = () => {
       </div>
       <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-8">
         <div
-          className="mx-auto text-center"
+          className="mx-auto text-center xlg:mx-20"
           style={{ maxWidth: "100%", height: "auto" }}
         >
           <Image
@@ -181,7 +181,7 @@ const Content = () => {
       </div>
       <div className="container mx-auto md:px-16 lg:px-32 xl:px-0 mb-8">
         <div
-          className="mx-auto text-center"
+          className="mx-auto text-center xlg:mx-16 xlg:px-2"
           style={{ maxWidth: "100%", maxHeight: "auto" }}
         >
           <Image
@@ -315,15 +315,17 @@ const Content = () => {
             content="Reaching goals is typically accompanied by challenges. At Check we built in a leaderboard to track top contributors to a better society. Motivating users to move up the leaderboard with pleasant surprises like badges and vouchers indulges them in playful competition and results in users contributing positively to build a safe environment "
           />
           <div className="text-center">
-            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
-              <img
-                src="/assets/casestudy/check/6.png"
-                alt=""
-                className="h-auto w-full"
-                // width={265}
-                // height={552}
-                // layout="intrinsic"
-              />
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-8">
+              <figure>
+                <img
+                  src="/assets/casestudy/check/6.png"
+                  alt=""
+                  className="h-auto w-full "
+                  // width={265}
+                  // height={552}
+                  // layout="intrinsic"
+                />
+              </figure>
             </div>
           </div>
         </div>
@@ -354,7 +356,7 @@ const Content = () => {
             content="In our application, we designed a rewards section that displays the badges and vouchers won by the user for being good citizens of the society. We carefully craft messages to convey a sense of pride and accomplishment."
           />
           <div className="text-center">
-            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-8">
               <img
                 src="/assets/casestudy/check/8.png"
                 alt=""
@@ -396,7 +398,7 @@ const Content = () => {
             flow in four easy steps.
           </p>
           <div className="text-center mb-2 md:mb-4 xl:mb-8">
-            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-0">
+            <div className="mx-auto text-center max-w-xs hd:max-w-lg px-20 md:px-8">
               <img
                 src="/assets/casestudy/check/9.png"
                 alt=""
@@ -412,17 +414,19 @@ const Content = () => {
             classes="mb-4 md:mb-8 xl:text-2xl"
             content="The application was mindfully designed to be extremely lightweight with just three sections: a profile page; rewards; and settings. This makes navigation through the application incredibly easy with minimum effort."
           />
-          <div className="text-center px-20 md:px-0">
-            <video
-              style={{
-                boxShadow: "0px 2px 8px rgb(90 90 90 / 20%)",
-                borderRadius: 8,
-              }}
-              className="w-full h-auto mx-auto max-w-xs hd:max-w-lg"
-              controls
-              src="/assets/casestudy/check/video.mp4"
-              poster="/assets/casestudy/check/video-poster.png"
-            />
+          <div className="text-center px-20 md:px-8">
+            <div className="mx-8">
+              <video
+                style={{
+                  boxShadow: "0px 2px 8px rgb(90 90 90 / 20%)",
+                  borderRadius: 8,
+                }}
+                className="w-full h-auto mx-auto max-w-xxs hd:max-w-lg"
+                controls
+                src="/assets/casestudy/check/video.mp4"
+                poster="/assets/casestudy/check/video-poster.png"
+              />
+            </div>
           </div>
         </div>
       </div>

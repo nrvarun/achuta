@@ -2,6 +2,7 @@
 import styles from "./portfolio.module.scss";
 
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 type Portfolio = {
   title: string;
@@ -12,7 +13,13 @@ type Portfolio = {
 
 const Portfolio = ({ title, desc, image = "", locked }: Portfolio) => {
   return (
-    <article className="relative">
+    <motion.article
+      initial={{ opacity: 0, y: 10 }}
+      whileInView={{ opacity: 1, y: 0 }}
+      viewport={{ once: true }}
+      transition={{ duration: 0.75 }}
+      className="relative"
+    >
       <div className={styles.wrapper}>
         <img
           className={styles.cta}
@@ -21,7 +28,7 @@ const Portfolio = ({ title, desc, image = "", locked }: Portfolio) => {
         />
       </div>
       <img src={image} alt={desc} className={styles.productImage} />
-    </article>
+    </motion.article>
   );
 };
 

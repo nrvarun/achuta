@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import { useRouter } from "next/router";
+import { motion } from "framer-motion";
 
 const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
   const router = useRouter();
@@ -13,7 +14,13 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
       } top-0 left-0 right-0 z-10`}
     >
       <div className="container m-auto content-center grid grid-cols-2 max-w-screen-hd">
-        <div className="content-center flex">
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.5 }}
+          className="content-center flex"
+        >
           <Link href="/">
             <a className="no-underline">
               <h1 className="sf-heavy capitalize text-xl md:text-2xl xl:text-3.5xl text-white my-auto">
@@ -21,11 +28,17 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
               </h1>
             </a>
           </Link>
-        </div>
+        </motion.div>
         <div className="flex">
           <nav className="ml-auto my-auto">
             <ul className="flex ml-auto">
-              <li className="mr-5 xl:mr-10">
+              <motion.li
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5 }}
+                className="mr-5 xl:mr-10"
+              >
                 <Link href="/">
                   <a
                     className={`text-sm md:text-xl xl:text-2xl sf-medium capitalize ${
@@ -35,8 +48,14 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
                     work
                   </a>
                 </Link>
-              </li>
-              <li className="mr-5 xl:mr-10">
+              </motion.li>
+              <motion.li
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6 }}
+                className="mr-5 xl:mr-10"
+              >
                 <Link href="/about">
                   <a
                     className={`text-sm md:text-xl xl:text-2xl sf-medium capitalize ${
@@ -48,8 +67,14 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
                     about
                   </a>
                 </Link>
-              </li>
-              <li className="mr-0">
+              </motion.li>
+              <motion.li
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.7 }}
+                className="mr-0"
+              >
                 <Link href="/">
                   <a
                     className={`text-sm md:text-xl xl:text-2xl sf-medium capitalize ${
@@ -61,7 +86,7 @@ const Header = ({ isScrolling }: { isScrolling: Boolean }) => {
                     resume
                   </a>
                 </Link>
-              </li>
+              </motion.li>
             </ul>
           </nav>
         </div>
