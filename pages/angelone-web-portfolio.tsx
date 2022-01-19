@@ -22,7 +22,7 @@ const AngelOneWebPorfolio: NextPage = () => {
         list={[
           "Simplified interactions between key sections of the portfolio",
           "User-centric information nuggets to draw deep insights",
-          "Effecient stock trading workflow with user specific nuaces",
+          "Efficient stock trading workflow with user specific nuances",
         ]}
       />
       <Footer>
@@ -47,7 +47,7 @@ const AngelOneWebPorfolio: NextPage = () => {
                       AngelOne
                     </h4>
                     <p className="text-white text-xs  md:text-base xl:text-md sf-bold">
-                      Defining visual hierachies and patterns
+                      Defining visual hierarchies and patterns
                     </p>
                   </div>
                 </a>

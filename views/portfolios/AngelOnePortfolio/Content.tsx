@@ -244,7 +244,7 @@ const Content = () => {
                   style={{ lineHeight: 1.5 }}
                 >
                   <span className="sf-bold">
-                    A banner the shows up in Open Orders
+                    A banner shows up in Open Orders
                   </span>{" "}
                   suggesting to price the order closer to Market Price for
                   faster order execution.

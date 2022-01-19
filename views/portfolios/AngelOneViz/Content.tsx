@@ -92,7 +92,7 @@ const Content = () => {
                 <Text
                   classes="xl:text-2xl"
                   style={{ lineHeight: 1.5 }}
-                  content="Main content area (Stock details, portfolio, orders and postions, etc)"
+                  content="Main content area (Stock details, portfolio, orders and positions, etc)"
                 />
               </div>
             </li>

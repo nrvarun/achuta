@@ -50,7 +50,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:mb-12 xl:text-2xl"
-            content="I decided that the core goal was that there must be something that triggers intrinsic motivation that inherently motivates the users to use the app. The experience of the application should not be gamification by just adding points, levels and badges. When we do things to earn rewards and achieve external goals it largely reduces the effects of intrinsic motivation. The only way to make gamfication work is to design the underlying experience to already be a game."
+            content="I decided that the core goal was that there must be something that triggers intrinsic motivation that inherently motivates the users to use the app. The experience of the application should not be gamified by just adding points, levels and badges. When we do things to earn rewards and achieve external goals it largely reduces the effects of intrinsic motivation. The only way to make gamification work is to design the underlying experience to already be a game."
           />
         </div>
         <div className="md:mx-12 xl:mx-16 2xl:mx-24 porfolio-content-wrapper mt-10 md:mt-16 xl:mt-24">
@@ -175,7 +175,7 @@ const Content = () => {
           <Text
             style={{ lineHeight: 1.5 }}
             classes="mb-4 md:mb-8 xl:text-2xl"
-            content="My team and I developed an efficient implementation of a neural network to automatically detect violations. We used YOLOv2 algorithm (You Only Look Once) which is a unique convolutional neural network (CNN) for doing object detection is real time. The algorithm applies a single neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region. Predicted probabilities are assigned to the bounded box in the form of weights. This achieves high accuracy while also being able to run in real-time."
+            content="My team and I developed an efficient implementation of a neural network to automatically detect violations. We used YOLOv2 algorithm (You Only Look Once) which is a unique convolutional neural network (CNN) for doing object detection in real time. The algorithm applies a single neural network to the full image, and then divides the image into regions and predicts bounding boxes and probabilities for each region. Predicted probabilities are assigned to the bounded box in the form of weights. This achieves high accuracy while also being able to run in real-time."
           />
         </div>
       </div>
